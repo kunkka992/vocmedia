@@ -1,0 +1,36 @@
+{
+    "urls": [
+        {
+            "url": "http://www.饭太硬.com/tv",
+            "name": "饭太硬"
+        },
+        {
+            "name": "小虎斑",
+            "url": "http://bobohome.ignorelist.com:20247/🐯小虎斑/"
+        },                             
+        {
+            "name": "01 OK佬",
+            "url": "http://ok521.top/tv"
+        },
+        {
+            "url": "http://ok213.top/tv",
+            "name": "02 OK佬"
+        },
+        {
+            "url": "http://bobohome.ignorelist.com:20247/🧑‍🎤欧歌/",
+            "name": "欧歌"
+        },
+        {
+            "url": "http://bobohome.ignorelist.com:20247/🌪️南风/",
+            "name": "南风"
+        },
+        {
+            "url": "http://bobohome.ignorelist.com:20247/🧑潇洒哥/",
+            "name": "潇洒"
+        },
+        {
+            "name": "💦巧技",
+            "url": "http://pandown.pro/tvbox/tvbox.json"
+        }
+    ]
+}
