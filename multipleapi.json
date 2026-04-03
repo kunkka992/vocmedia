@@ -1,0 +1,32 @@
+{
+    "urls": [
+        {
+            "url": "http://www.饭太硬.com/tv",
+            "name": "饭太硬"
+        },
+        {
+            "name": "一哥接口",
+            "url": "http://ficfac.com/ijia/app.json"
+        },                             
+        {
+            "name": "OK佬",
+            "url": "http://ok521.top/tv"
+        },
+        {
+            "url": "http://550.3vcn.work/wdjyys.json",
+            "name": "金鹰"
+        },
+        {
+            "url": "https://raw.githubusercontent.com/yoursmile66/TVBox/refs/heads/main/XC.json",
+            "name": "南风"
+        },
+        {
+            "url": "http://bobohome.ignorelist.com:20247/🧑潇洒哥/",
+            "name": "潇洒"
+        },
+        {
+            "name": "巧技",
+            "url": "https://raw.githubusercontent.com/qist/tvbox/master/jsm.json"
+        }
+    ]
+}
