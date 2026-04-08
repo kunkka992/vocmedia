@@ -1,6 +1,6 @@
 var rule = {
     title: '蛋蛋赞',
-    host: 'https://www.ddzvod.com',
+    host: 'https://dandanzan.org',
     // url:'/fyclass/index_fypage.html[/fyclass/index.html]', 
     // url: '/index.php/vod/show/id/fyclass/page/fypage.html',
     url: '/index.php/vod/show/id/fyfilter.html',
