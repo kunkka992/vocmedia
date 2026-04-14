@@ -23,7 +23,7 @@
     {"key": "永乐影视","name": "永乐｜影视","type": 3,"api": "csp_XBPQ","ext": "./XBPQ/永乐影视.json"},
     {"key":"文才","name":"🌺文才秒播","type": 3,"api":"csp_AweSomeGuard", "jar": "./RinpMUTd.png","searchable":1,"quickSearch":1,"changeable":1,"filterable":1, "ext": {"sp": "Jpys"}, "timeout": 10},
     {"key": "drpy_js_小宝影院[飞]","name":"起飞 | 小宝影院[js]","type":3,"api":"./lib/drpy2.min.js","ext":"./js/小宝影院[飞].js"},
-    {"key": "aiyifan.js","name":"aiyifan.js","type":3,"api":"./lib/drpy2.min.js","ext":"./js/aiyifan.js"},
+    {"key": "aiyifanjs","name":"aiyifanjs","type":3,"api":"./lib/drpy2.min.js","ext":"./js/aiyifan.js"},
     {"key": "剧圈影视","name": "剧圈｜影视","type": 3,"api": "csp_XYQHiker","ext": "./XYQHiker/剧圈影视.json"},
     {"key": "来看影视","name": "来看｜影视","type": 3,"api": "csp_XYQHiker","ext": "./XYQHiker/来看影视.json"},
     {"key": "drpy_js_网易公版影像","name": "聚合 | 网易公版[js]","type": 3,"api": "./lib/drpy2.min.js","changeable": 0,"style": {"type": "rect","ratio": 1.597},"ext": "./js/网易公版影像.js"},
