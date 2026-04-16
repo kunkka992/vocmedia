@@ -310,7 +310,7 @@
 {"key":"drpy_js_555影视[飞]","name":"起飞 | 555影视[js]","type":3,"api":"./lib/drpy2.min.js","ext":"./js/555影视[飞].js"},
 {"key":"drpy_js_if101[飞]","name":"起飞 | if101[js]","type":3,"api":"./lib/drpy2.min.js","ext":"./js/if101[飞].js"},
 {"key":"drpy_js_KUBO影视[飞]","name":"起飞 | KUBO影视[js]","type":3,"api":"./lib/drpy2.min.js","ext":"./js/KUBO影视[飞].js"},
-{"key":"drpy_js_爱壹帆[飞]","name":"起飞 | 爱壹帆[js]","type":3,"api":"./lib/drpy2.min.js","ext":"./js/爱壹帆[飞].js"},
+{"key":"drpy_js_爱壹帆[飞]","name":"起飞 | 爱壹帆[js]","type":3,"api":"./lib/drpy.min.js","ext":"./js/爱壹帆[飞].js"},
 {"key":"drpy_js_独播库[飞]","name":"起飞 | 独播库[js]","type":3,"api":"./lib/drpy2.min.js","ext":"./js/独播库[飞].js"},
 {"key":"drpy_js_欧乐影院[飞]","name":"起飞 | 欧乐影院[js]","type":3,"api":"./lib/drpy2.min.js","ext":"./js/欧乐影院[飞].js"},
 {"key":"drpy_js_小宝影院[飞]","name":"起飞 | 小宝影院[js]","type":3,"api":"./lib/drpy2.min.js","ext":"./js/小宝影院[飞].js"},
