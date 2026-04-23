@@ -141,11 +141,11 @@ https://php.946985.filegear-sg.me/mytv265.php?id=C18
 
 #--------------------------电影分类(https://github.com/alantang1977/X/blob/main/X.json)-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 #-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-#EXTINF:-1 group-title="Movie Channel",CHC家庭影院
+#EXTINF:-1 tvg-logo="http://10.1.0.85:5180/logo/CHC家庭影院.png" group-title="Movie Channel",CHC家庭影院
 http://69.30.245.51:82/live/chcjt.m3u8?jsbt=1774883139?jsbk=801e372bd447ed4718cdc040774de414
-#EXTINF:-1 group-title="Movie Channel",CHC动作电影
+#EXTINF:-1 tvg-logo="http://10.1.0.85:5180/logo/CHC动作电影.png" group-title="Movie Channel",CHC动作电影
 http://38.75.136.137:98/gslb/dsdqpub/chcdz.m3u8?auth=testpub
-#EXTINF:-1 group-title="Movie Channel",CHC影迷电影
+#EXTINF:-1 tvg-logo="http://10.1.0.85:5180/logo/动作电影.png" group-title="Movie Channel",CHC影迷电影
 http://38.75.136.137:98/gslb/dsdqpub/chchd.m3u8?auth=testpub
 #EXTINF:-1 group-title="Movie Channel",邵氏电影
 http://38.75.136.137:98/gslb/dsdqpub/lbssdy.m3u8?auth=testpub
@@ -270,7 +270,7 @@ https://otte.live.fly.ww.aiv-cdn.net/syd-nitro/live/clients/dash/enc/q4u5nwaogz/
 
 #-------------------------bein sport xtra(https://github.com/abusaeeidx/IPTV-Scraper-Zilla/blob/main/xumo_playlist.m3u)----------------------------------------------------------------------------------------------------------------------------------
 #-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-#EXTINF:-1 tvg-id="beIN SPORTS XTRA" tvg-name="beIN SPORTS XTRA" tvg-logo=""  group-title="Sports", beIN SPORTS XTRA
+#EXTINF:-1 tvg-id="beIN SPORTS XTRA" tvg-name="beIN SPORTS XTRA" tvg-logo="https://image.xumo.com/v1/channels/channel/99991387/168x168.png?type=color_onBlack"  group-title="Sports", beIN SPORTS XTRA
 https://bein-xtra-xumo.amagi.tv/hls/amagi_hls_data_beinAAAAA-bein-xtra-xumoA/CDN/master.m3u8?is_lat=0&us_privacy=
 
 #-------------------------astro(https://github.com/mystery75/streaming/blob/app/new)----------------------------------------------------------------------------------------------------------------------------------
@@ -279,28 +279,28 @@ https://bein-xtra-xumo.amagi.tv/hls/amagi_hls_data_beinAAAAA-bein-xtra-xumoA/CDN
 #KODIPROP:inputstream.adaptive.manifest_type=dash 
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
 #KODIPROP:inputstream.adaptive.license_key=efda647dad723563b625be8c05ee6110:6776985938b332164b97b81fe566a34a
-#EXTINF:-1 tvg-id="801.astro" tvg-logo="" group-title="Sports",Astro Arena
+#EXTINF:-1 tvg-id="801.astro" tvg-logo="https://linear-poster.astro.com.my/prod/logo/AstroArena_2024.png" group-title="Sports",Astro Arena
 https://d32ee6d372f04fd5bd07bc10fad73eca.mediatailor.ap-southeast-1.amazonaws.com/v1/dash/ceb8322ae2e84c32cb0fce196fdc60100025ab50/MT-CH22-dash/default_primary.mpd?astro=true
 
 #KODIPROP:inputstreamaddon=inputstream.adaptive 
 #KODIPROP:inputstream.adaptive.manifest_type=dash 
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
 #KODIPROP:inputstream.adaptive.license_key=5be66a6f88efee3d6e30f72a9c58e310:168f3fadfc730ba3dfc932f7c430e27d
-#EXTINF:-1 tvg-id="810.astro" ch-number="813" tvg-logo="" group-title="Sports",Astro Grandstand 
+#EXTINF:-1 tvg-id="810.astro" ch-number="813" tvg-logo="http://linear-poster.astro.com.my/prod/logo/AstroGrandstand_2024.png" group-title="Sports",Astro Grandstand 
 https://4c0a6c7981954190aba1739e27e3dec8.mediatailor.ap-southeast-1.amazonaws.com/v1/dash/ceb8322ae2e84c32cb0fce196fdc60100025ab50/MT-CH28-dash/default_primary.mpd?astro=true
 
 #KODIPROP:inputstreamaddon=inputstream.adaptive 
 #KODIPROP:inputstream.adaptive.manifest_type=dash 
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
 #KODIPROP:inputstream.adaptive.license_key=81352bc47ec1177b321ee65ac1be7f10:c8b886142005d7e5067c8717777eaac4
-#EXTINF:-1 tvg-id="817.astro" tvg-logo="" group-logo="" group-title="Sports",Astro Sport Plus
+#EXTINF:-1 tvg-id="817.astro" tvg-logo="" group-logo="http://linear-poster.astro.com.my/prod/logo/AstroSportsPlus_2024.png" group-title="Sports",Astro Sport Plus
 https://6ff3674dea9d4f99b1b05c2ebcb299fe.mediatailor.ap-southeast-1.amazonaws.com/v1/dash/ceb8322ae2e84c32cb0fce196fdc60100025ab50/MT-CH33-dash/default_primary.mpd?astro=true
 
 #KODIPROP:inputstreamaddon=inputstream.adaptive 
 #KODIPROP:inputstream.adaptive.manifest_type=dash 
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
 #KODIPROP:inputstream.adaptive.license_key=03c2e0af2f8159f9f0ce9b5dbc865f10:cd84ed136b0cc71f8ab8cd4d4f6a2e4c
-#EXTINF:-1 tvg-id="832.astro" tvg-logo="" group-logo="" group-title="Sports",Cricket
+#EXTINF:-1 tvg-id="832.astro" tvg-logo="" group-logo="http://linear-poster.astro.com.my/prod/logo/AstroCricket_2024.png" group-title="Sports",Astro Cricket
 https://b500e47a210c49479f2313d1a124f855.mediatailor.ap-southeast-1.amazonaws.com/v1/dash/ceb8322ae2e84c32cb0fce196fdc60100025ab50/MT-CH31-dash/default_primary.mpd?astro=true
 
 #--------------------------SPORTSTARS(https://github.com/Clasherstore/Trrertv/blob/main/update_13_april_2026)---------------------------------------------------------------------------------------------------------------------------------------------
@@ -338,12 +338,12 @@ https://d2xz2v5wuvgur6.cloudfront.net/out/v1/2fcc58ccec8c45e9aa094fb980eb642d/in
 
 #----------------------------NBA(https://github.com/abusaeeidx/IPTV-Scraper-Zilla/blob/main/xumo_playlist.m3u)---------------------------------------------------------------------------------------------------------------------------------------
 #-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-#EXTINF:-1 tvg-id="NBA" tvg-name="NBA" tvg-logo=""  group-title="Sports", NBA
+#EXTINF:-1 tvg-id="NBA" tvg-name="NBA" tvg-logo="https://image.xumo.com/v1/channels/channel/99951383/168x168.png?type=color_onBlack"  group-title="Sports", NBA
 https://dbrb49pjoymg4.cloudfront.net/10001/99951383/hls/playlist.m3u8?ads.xumo_channelId=99951383&ads._fw_ifa_type=&ads._fw_did=7ce08524-f636-4d24-b8d9-ceb894486ebc&ads.amznappId=&ads.lat=&ads.lon=&ads.os=&ads.osv=&ads.asnw=&ads.caid=NBAFASTChannel&ads.csid=xumo_web_NBAFASTChannel_ssai&ads._fw_is_lat=0&ads._fw_us_privacy=&ads._fw_coppa=0&ads.genre=Sport,Sports,SA,SC,SE,SN&ads._fw_content_category=&ads._fw_content_language=en&ads._fw_content_genre=Sport,Sports,SA,SC,SE,SN&ads._fw_content_rating=&ads.xumo_contentId=4185&ads.xumo_contentName=NBAFASTChannel&ads.xumo_providerId=4185&ads.xumo_providerName=NBAFASTChannel&ads._fw_deviceMake=GitHubAction&ads._fw_device_model=PythonScript&ads.channelId=99951383&ads.xumo_platform=web&ads.site_id=&ads.appName=xumo&ads.appVersion=1.0.0&ads._fw_app_bundle=web.xumo.com&ads._fw_app_store_url=
 
 #----------------------------下面这些分类(https://github.com/shareext-reborn/Shareext-UpdateFilesSports.m3u/blob/main/Shareext%40playlist)
 #-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-#EXTINF:-1 group-title="Sports" tvg-logo="",NBA TV
+#EXTINF:-1 group-title="Sports" tvg-logo="https://i.ibb.co.com/BCHXWWH/Shareext-champion-league.jpg",NBA TV
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=84077d18bcf234a42de3745be106a87f:aee3069c062ec8ee6bfdd32985f287ef
@@ -382,7 +382,7 @@ https://tglmp02.akamaized.net/out/v1/1063ebb215c14312ba9d4e415ac706d2/manifest.m
 
 #-------------------------------Mytv Supersport(https://php.946985.filegear-sg.me/jackTV.m3u)---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 #-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-#EXTINF:-1 tvg-id="MytvSuper" tvg-name="SUPERSPORTS" tvg-logo="" group-title="Sports",Mytv SUPER Sports
+#EXTINF:-1 tvg-id="MytvSuper" tvg-name="SUPERSPORTS" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/RTDOC.png" group-title="Sports",Mytv SUPER Sports
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=0d57dc882191c22a9f8185ab7e9a629b:0d2b2edbea04dde8ff880d20e20261ad
@@ -390,15 +390,15 @@ https://php.946985.filegear-sg.me/mytv265.php?id=SSPT
 
 #--------------------------------下面这些(https://github.com/abusaeeidx/IPTV-Scraper-Zilla/blob/main/xumo_playlist.m3u)-------------------------------------------------------------------------------------------------------------------------------
 #-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-#EXTINF:-1 tvg-id="PGA Tour" tvg-name="PGA Tour" tvg-logo=""  group-title="Sports", PGA Tour
+#EXTINF:-1 tvg-id="PGA Tour" tvg-name="PGA Tour" tvg-logo="https://image.xumo.com/v1/channels/channel/99991281/168x168.png?type=color_onBlack"  group-title="Sports", PGA Tour
 https://d1195tnygmyfvk.cloudfront.net/10000/99991281/hls/playlist.m3u8?ads.xumo_channelId=99991281&ads._fw_ifa_type=&ads._fw_did=76700b4a-aac9-48a7-a524-8091fd606d34&ads.amznappId=&ads.lat=&ads.lon=&ads.os=&ads.osv=&ads.asnw=&ads.caid=PGATour&ads.csid=xumo_web_PGATour_ssai&ads._fw_is_lat=0&ads._fw_us_privacy=&ads._fw_coppa=0&ads.genre=Sport,Sports,SA,SC,SE,SN&ads._fw_content_category=&ads._fw_content_language=en&ads._fw_content_genre=Sport,Sports,SA,SC,SE,SN&ads._fw_content_rating=&ads.xumo_contentId=211&ads.xumo_contentName=PGATour&ads.xumo_providerId=211&ads.xumo_providerName=PGATour&ads._fw_deviceMake=GitHubAction&ads._fw_device_model=PythonScript&ads.channelId=99991281&ads.xumo_platform=web&ads.site_id=&ads.appName=xumo&ads.appVersion=1.0.0&ads._fw_app_bundle=web.xumo.com&ads._fw_app_store_url=
-#EXTINF:-1 tvg-id="GOLFPASS" tvg-name="GOLFPASS" tvg-logo=""  group-title="Sports", GOLFPASS
+#EXTINF:-1 tvg-id="GOLFPASS" tvg-name="GOLFPASS" tvg-logo="https://image.xumo.com/v1/channels/channel/99951462/168x168.png?type=color_onBlack"  group-title="Sports", GOLFPASS
 https://d4whmvwm0rdvi.cloudfront.net/10007/99951462/hls/master.m3u8?ads.xumo_channelId=99951462&ads.asnw=535279&ads.afid=440667964&ads.sfid=23817285&ads.csid=xumo_web_versantgolfpass_ssai_cro&ads._fw_is_lat=0&ads._fw_us_privacy=&ads._fw_coppa=0&ads._fw_did=726dc618-1a7d-4ae4-9726-bada269d3341&ads._fw_vcid2=512116:726dc618-1a7d-4ae4-9726-bada269d3341&ads._fw_app_bundle=web.xumo.com&ads._fw_app_store_url=&ads._fw_content_category=&ads._fw_content_genre=Sport,Sports,SA,SC,SE,SN&ads._fw_content_language=en&ads._fw_content_rating=&ads._fw_deviceMake=GitHubAction&ads._fw_device_model=PythonScript&ads._fw_deviceType=3-Connected_TV&ads.appVersion=1.0.0&ads.appName=xumoplay&ads.xumo_contentId=4292&ads.xumo_contentName=VersantGOLFPASS&ads.xumo_providerId=4292&ads.xumo_providerName=VersantGOLFPASS&ads.channelId=99951462&ads._fw_ifa_type=
-#EXTINF:-1 tvg-id="99951530" tvg-name="ONE Championship" tvg-logo="" group-title="Sports",ONE Championship
+#EXTINF:-1 tvg-id="99951530" tvg-name="ONE Championship" tvg-logo="https://image.xumo.com/v1/channels/channel/99951530/168x168.png?type=color_onBlack" group-title="Sports",ONE Championship
 https://dbrb49pjoymg4.cloudfront.net/10001/99951530/hls/master.m3u8?ads.xumo_channelId=99951530&ads.xumo_streamId=99951530&ads.channelId=99951530&ads.channelName=C15OneChampionship_us&ads.caid=C15OneChampionship&ads.csid=xumo_web_C15OneChampionship_ssai&ads.genre=Sport,Sports,SC&ads._fw_content_genre=Sport,Sports,SC&ads._fw_coppa=0&ads.xumo_contentId=4403&ads.xumo_contentName=C15OneChampionship&ads.xumo_providerId=4403&ads.xumo_providerName=C15OneChampionship&ads._fw_ifa_type=&ads._fw_did=5673606e-26a8-4a02-b624-617373dfe2bf&ads.amznappId=&ads.lat=&ads.lon=&ads.os=&ads.osv=&ads._fw_is_lat=0&ads._fw_us_privacy=&ads._fw_content_category=&ads._fw_content_language=en&ads._fw_content_rating=&ads._fw_deviceMake=GitHubAction&ads._fw_device_model=PythonScript&ads.xumo_platform=web&ads.site_id=&ads.appVersion=1.0.0&ads._fw_app_bundle=web.xumo.com&ads._fw_app_store_url=&ads.appName=XumoPlay
-#EXTINF:-1 tvg-id="99951134" tvg-name="UFC" tvg-logo="" group-title="Sports",UFC
+#EXTINF:-1 tvg-id="99951134" tvg-name="UFC" tvg-logo="https://image.xumo.com/v1/channels/channel/99951134/168x168.png?type=color_onBlack" group-title="Sports",UFC
 https://dbrb49pjoymg4.cloudfront.net/10001/99951134/hls/playlist.m3u8?ads.xumo_channelId=99951134&ads._fw_ifa_type=&ads._fw_did=39918290-babe-46c7-bd8a-13b6682a07bf&ads.amznappId=&ads.lat=&ads.lon=&ads.os=&ads.osv=&ads.asnw=&ads.caid=UFC&ads.csid=xumo_web_UFC_ssai&ads._fw_is_lat=0&ads._fw_us_privacy=&ads._fw_coppa=0&ads.genre=Sport,Sports,SA,SC,SE,SN&ads._fw_content_category=&ads._fw_content_language=en&ads._fw_content_genre=Sport,Sports,SA,SC,SE,SN&ads._fw_content_rating=&ads.xumo_contentId=3345&ads.xumo_contentName=UFC&ads.xumo_providerId=3345&ads.xumo_providerName=UFC&ads._fw_deviceMake=GitHubAction&ads._fw_device_model=PythonScript&ads.channelId=99951134&ads.xumo_platform=web&ads.site_id=&ads.appName=xumo&ads.appVersion=1.0.0&ads._fw_app_bundle=web.xumo.com&ads._fw_app_store_url=
-#EXTINF:-1 tvg-id="World Poker Tour" tvg-name="World Poker Tour" tvg-logo=""  group-title="Sports", World Poker Tour
+#EXTINF:-1 tvg-id="World Poker Tour" tvg-name="World Poker Tour" tvg-logo="https://image.xumo.com/v1/channels/channel/99991317/168x168.png?type=color_onBlack"  group-title="Sports", World Poker Tour
 https://dtqutq7lmcchv.cloudfront.net/10001/99991317/hls/playlist.m3u8?ads.xumo_channelId=99991317&ads._fw_ifa_type=&ads._fw_did=9e73a25d-9aab-4e57-8133-6856cde1dc2a&ads.amznappId=&ads.lat=&ads.lon=&ads.os=&ads.osv=&ads.asnw=&ads.caid=WorldPokerTour&ads.csid=xumo_web_WorldPokerTour_ssai&ads._fw_is_lat=0&ads._fw_us_privacy=&ads._fw_coppa=0&ads.genre=Sport,Sports,SA,SC,SE,SN&ads._fw_content_category=&ads._fw_content_language=en&ads._fw_content_genre=Sport,Sports,SA,SC,SE,SN&ads._fw_content_rating=&ads.xumo_contentId=252&ads.xumo_contentName=WorldPokerTour&ads.xumo_providerId=252&ads.xumo_providerName=WorldPokerTour&ads._fw_deviceMake=GitHubAction&ads._fw_device_model=PythonScript&ads.channelId=99991317&ads.xumo_platform=web&ads.site_id=&ads.appName=xumo&ads.appVersion=1.0.0&ads._fw_app_bundle=web.xumo.com&ads._fw_app_store_url=
 
 
