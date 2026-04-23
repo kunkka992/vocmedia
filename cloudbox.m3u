@@ -293,14 +293,14 @@ https://4c0a6c7981954190aba1739e27e3dec8.mediatailor.ap-southeast-1.amazonaws.co
 #KODIPROP:inputstream.adaptive.manifest_type=dash 
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
 #KODIPROP:inputstream.adaptive.license_key=81352bc47ec1177b321ee65ac1be7f10:c8b886142005d7e5067c8717777eaac4
-#EXTINF:-1 tvg-id="817.astro" tvg-logo="" group-logo="https://divign0fdw3sv.cloudfront.net/Images/ChannelLogo/contenthub/280_144.png" group-title="Sports",Astro Sport Plus
+#EXTINF:-1 tvg-id="817.astro" tvg-logo="http://linear-poster.astro.com.my/prod/logo/AstroSportsPlus_2024.png" group-logo="" group-title="Sports",Astro Sport Plus
 https://6ff3674dea9d4f99b1b05c2ebcb299fe.mediatailor.ap-southeast-1.amazonaws.com/v1/dash/ceb8322ae2e84c32cb0fce196fdc60100025ab50/MT-CH33-dash/default_primary.mpd?astro=true
 
 #KODIPROP:inputstreamaddon=inputstream.adaptive 
 #KODIPROP:inputstream.adaptive.manifest_type=dash 
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
 #KODIPROP:inputstream.adaptive.license_key=03c2e0af2f8159f9f0ce9b5dbc865f10:cd84ed136b0cc71f8ab8cd4d4f6a2e4c
-#EXTINF:-1 tvg-id="832.astro" tvg-logo="" group-logo="https://divign0fdw3sv.cloudfront.net/Images/ChannelLogo/contenthub/197_144.png" group-title="Sports",Astro Cricket
+#EXTINF:-1 tvg-id="832.astro" tvg-logo="http://linear-poster.astro.com.my/prod/logo/AstroCricket_2024.png" group-logo="" group-title="Sports",Astro Cricket
 https://b500e47a210c49479f2313d1a124f855.mediatailor.ap-southeast-1.amazonaws.com/v1/dash/ceb8322ae2e84c32cb0fce196fdc60100025ab50/MT-CH31-dash/default_primary.mpd?astro=true
 
 #--------------------------SPORTSTARS(https://github.com/Clasherstore/Trrertv/blob/main/update_13_april_2026)---------------------------------------------------------------------------------------------------------------------------------------------
