@@ -209,7 +209,6 @@
       "name": "cloudlive",
       "type": 0,
       "url": "https://raw.githubusercontent.com/kunkka992/vocmedia/refs/heads/main/cloudbox.m3u", // 支持远程链接
-      "playerType": 1
     }
   ],
   "parses": [
