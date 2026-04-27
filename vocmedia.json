@@ -64,16 +64,6 @@
       }
     },
     {
-      "key": "闪雷",
-      "name": "闪雷┃MP4",
-      "type": 3,
-      "api": "./lib/drpy2.min.js",
-      "ext": "./js/678.js",
-      "header": {
-        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36 Edg/136.0.0.0"
-      }
-    },
-    {
       "key": "fyyy",
       "name": "飞宇影院",
       "type": 3,
@@ -149,19 +139,6 @@
       "type": 3,
       "api": "csp_XBPQ",
       "ext": "./XBPQ/永乐影视.json"
-    },
-    {
-      "key": "文才",
-      "name": "🌺文才秒播",
-      "type": 3,
-      "api": "csp_AweSomeGuard",
-      "jar": "./RinpMUTd.png",
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 1,
-      "filterable": 1,
-      "ext": { "sp": "Jpys" },
-      "timeout": 10
     },
     {
       "key": "drpy_js_小宝影院[飞]",
