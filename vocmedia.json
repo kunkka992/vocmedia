@@ -54,16 +54,6 @@
       }
     },
     {
-      "key": "新闪雷",
-      "name": "新闪雷┃MP4",
-      "type": 3,
-      "api": "./lib/drpy2.min.js",
-      "ext": "./js/新闪雷.js",
-      "header": {
-        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36 Edg/136.0.0.0"
-      }
-    },
-    {
       "key": "fyyy",
       "name": "飞宇影院",
       "type": 3,
@@ -125,13 +115,6 @@
       "changeable": 0,
       "jar": "https://github.com/franksun1211/TXT/raw/main/TVbox/VS194-SU147/yt.jar"
     },
-    {
-      "key": "云播影视",
-      "name": "云播｜影视",
-      "type": 3,
-      "api": "csp_Tvyb",
-      "ext": "http://www.tvyb03.com"
-    },
     { "key": "瓜子影视", "name": "瓜子｜影视", "type": 3, "api": "csp_Gz360" },
     {
       "key": "永乐影视",
@@ -146,15 +129,6 @@
       "type": 3,
       "api": "./lib/drpy2.min.js",
       "ext": "./js/小宝影院[飞].js"
-    },
-    {
-      "key": "drpy_js_网易公版影像",
-      "name": "聚合 | 网易公版[js]",
-      "type": 3,
-      "api": "./lib/drpy2.min.js",
-      "changeable": 0,
-      "style": { "type": "rect", "ratio": 1.597 },
-      "ext": "./js/网易公版影像.js"
     },
     {
       "key": "push_agent",
