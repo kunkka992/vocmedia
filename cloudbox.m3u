@@ -78,7 +78,7 @@ https://tglmp01.akamaized.net/out/v1/8605c1013e3148aa809c296dd76c3fa5/manifest.m
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=06282157da4e8f97623a70ed017fad10:8da72ca8501a4deb4bfc381fe1737ef4
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 13; Reno 4 Pro Build/PEcU0p; wv) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.1.2758.20 Safari/537.36
-#EXTINF:-1 tvg-id="AEC" tvg-name="AEC" tvg-logo="" group-title="Chinese" tvg-chno="4248" tvg-shift="0",AEC(字幕和语言)
+#EXTINF:-1 tvg-id="AEC" tvg-name="AEC" tvg-logo="" group-title="Chinese" tvg-shift="0",AEC(字幕和语言)
 https://get.perfecttv.net/dash2.mpd?username=vip_3klp0es8&password=wg3piwEs&channel=aec
 
 #KODIPROP:inputstreamaddon=inputstream.adaptive
@@ -87,7 +87,7 @@ https://get.perfecttv.net/dash2.mpd?username=vip_3klp0es8&password=wg3piwEs&chan
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=286aef4e8d85db66e05fe4a5c799e410:176e2938bce795d1c85559a2440477f7
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 13; Reno 4 Pro Build/PEcU0p; wv) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.1.2758.20 Safari/537.36
-#EXTINF:-1 tvg-id="AOD" tvg-name="AOD" tvg-logo="" group-title="Chinese" tvg-chno="4247" tvg-shift="0",AOD(字幕和语言)
+#EXTINF:-1 tvg-id="AOD" tvg-name="AOD" tvg-logo="" group-title="Chinese" tvg-shift="0",AOD(字幕和语言)
 https://linearjitp-playback.astro.com.my/dash-wv/linear/2706/default_ott.mpd?channel=aod
 
 #EXTINF:-1 tvg-name="欢喜台" tvg-logo="" group-title="Chinese",欢喜台
@@ -100,7 +100,7 @@ https://o11.163189.xyz/stream/live/iqiyi/
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
 #KODIPROP:inputstream.adaptive.license_key=fe1219019a9f36cdef347088e592ca10:cb9e1a122ed1c6445f7d3fd2162358f1
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 13; Reno 4 Pro Build/PEcU0p; wv) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.1.2758.20 Safari/537.36
-#EXTINF:-1 tvg-id="TVBJADE" tvg-name="TVB Jade" tvg-logo="" group-title="Chinese" tvg-chno="4255" tvg-shift="0",马来翡翠台
+#EXTINF:-1 tvg-id="TVBJADE" tvg-name="TVB Jade" tvg-logo="" group-title="Chinese" tvg-shift="0",马来翡翠台
 https://get.perfecttv.net/dash2.mpd?username=vip_3klp0es8&password=wg3piwEs&channel=tvbjade
 
 #EXTINF:-1 tvg-id="翡翠台" tvg-name="翡翠台" tvg-logo="" group-title="Chinese",香港翡翠台
