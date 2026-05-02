@@ -52,7 +52,7 @@ https://d25tgymtnqzu8s.cloudfront.net/smil:berita/index.m3u8?id=5
 
 #----------------------------新加坡分类(https://github.com/alantang1977/X/blob/main/X.json)---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 #---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-#EXTM3U url-tvg="https://raw.githubusercontent.com/dbghelp/StarHub-TV-EPG/refs/heads/main/starhub.xml, https://raw.githubusercontent.com/dbghelp/mewatch-EPG/refs/heads/main/mewatch.xml" refresh="3600"
+
 #EXTINF:-1 group-title="Siaran Tv"  tvg-id="97098" tvg-logo="https://prod98.togglestatic.com/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&ImageId='6318760'&EntityType='Item'&EntityId='97098'&Width=356&Height=250", Channel 5
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=cc3767ece98a4bdeb39b9ad6b7b8d2fe:769e78dc02d8f73811c97e0f9d5f12fe
@@ -72,13 +72,15 @@ https://tglmp01.akamaized.net/out/v1/8605c1013e3148aa809c296dd76c3fa5/manifest.m
 
 #-----------------------------中文分类(https://php.946985.filegear-sg.me/jackTV.m3u)---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 #-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=dash
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=06282157da4e8f97623a70ed017fad10:8da72ca8501a4deb4bfc381fe1737ef4
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 13; Reno 4 Pro Build/PEcU0p; wv) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.1.2758.20 Safari/537.36
-#EXTINF:-1 tvg-id="AEC" tvg-name="AEC" tvg-logo="https://get.perfecttv.net/logo/aec2.png" group-title="Chinese" tvg-chno="4248" tvg-shift="0",AEC(字幕和语言)
+#EXTINF:-1 tvg-id="AEC" tvg-name="AEC" tvg-logo="" group-title="Chinese" tvg-chno="4248" tvg-shift="0",AEC(字幕和语言)
 https://get.perfecttv.net/dash2.mpd?username=vip_3klp0es8&password=wg3piwEs&channel=aec
+
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=dash
 #KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Mozilla/5.0
@@ -87,6 +89,7 @@ https://get.perfecttv.net/dash2.mpd?username=vip_3klp0es8&password=wg3piwEs&chan
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 13; Reno 4 Pro Build/PEcU0p; wv) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.1.2758.20 Safari/537.36
 #EXTINF:-1 tvg-id="AOD" tvg-name="AOD" tvg-logo="" group-title="Chinese" tvg-chno="4247" tvg-shift="0",AOD(字幕和语言)
 https://linearjitp-playback.astro.com.my/dash-wv/linear/2706/default_ott.mpd?channel=aod
+
 #EXTINF:-1 tvg-name="欢喜台" tvg-logo="" group-title="Chinese",欢喜台
 http://o11.163189.xyz/stream/live/hxt/
 #EXTINF:-1 tvg-name="爱奇艺" tvg-logo="" group-title="Chinese",爱奇艺
