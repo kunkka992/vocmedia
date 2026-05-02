@@ -3,9 +3,55 @@
 
 #------ 🐰记录频道 分类开始 ------
 
-#----------------------------新加坡分类(https://github.com/alantang1977/X/blob/main/X.json)---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+#----------------------------siaran tv分类(https://github.com/FreemediaMY/FreemediaMY/blob/main/FreewatchMY)---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 #---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 #EXTM3U
+#EXTINF:-1 tvg-chno="101" tvg-id="TV1" tvg-name="TV1" tvg-logo="https://raw.githubusercontent.com/FreemediaMY/FreemediaMY/main/assets/freewatch/logos/local/RTM1.png",TV 1
+#EXTGRP:Family/Kids
+#EXTVLCOPT:network-caching=1000
+https://d25tgymtnqzu8s.cloudfront.net/smil:tv1/index.m3u8?id=1
+#EXTINF:-1 tvg-chno="102" tvg-id="TV2" tvg-name="TV2" tvg-logo="https://raw.githubusercontent.com/FreemediaMY/FreemediaMY/main/assets/freewatch/logos/local/RTM2.png",TV 2
+#EXTGRP:Family/Kids
+#EXTVLCOPT:network-caching=1000
+https://d25tgymtnqzu8s.cloudfront.net/smil:tv2/index.m3u8?id=2
+
+#----------------------------siaran tv分类(https://github.com/MIFNtechnology/StreamLiveTv/blob/main/myIPtv.m3u8)---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+#---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+#EXTINF:-1 group-title="siaranMy" tvg-id="TV3"  tvg-name="TV3" tvg-logo="https://mifntechnology.github.io/siaranMy/logo/Tv3.png",TV3
+#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
+#KODIPROP:inputstream.adaptive.license_key={"3bc3f0e518aed92e80a98118e5bc2c10": "5fce364fbc4499856597b19a96f44648"}
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; CPH1819 Build/QP1A.190711.020; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/135.0.7049.99 Mobile Safari/537.36
+https://linearjitp-playback.astro.com.my/dash-wv/linear/809/default_primary.mpd
+
+#----------------------------siaran tv分类(https://github.com/FreemediaMY/FreemediaMY/blob/main/FreewatchMY)---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+#---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+#EXTINF:-1 tvg-chno="106" tvg-id="TV6" tvg-name="TV6" tvg-logo="https://raw.githubusercontent.com/FreemediaMY/FreemediaMY/main/assets/freewatch/logos/local/RTM6.png",TV 6
+#EXTGRP:Family/Kids
+#EXTVLCOPT:network-caching=1000
+https://d25tgymtnqzu8s.cloudfront.net/smil:tv6/index.m3u8?id=6
+
+#----------------------------siaran tv分类(https://php.946985.filegear-sg.me/jackTV.m3u)---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+#---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+#EXTINF:-1 tvg-name="8TV" tvg-logo="https://gcore.jsdelivr.net/gh/luoluowoaini/666-@iill-logo-mytvsuper/8TV.png" group-title="Juli",8TV 八度空间
+http://cdn6.163189.xyz/163189/8tv
+
+#----------------------------siaran tv分类(https://github.com/FreemediaMY/FreemediaMY/blob/main/FreewatchMY)---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+#---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+#EXTINF:-1 tvg-chno="103" tvg-id="Okey" tvg-name="Okey" tvg-logo="https://raw.githubusercontent.com/FreemediaMY/FreemediaMY/main/assets/freewatch/logos/local/RTM_Okey.png",RTM Okey
+#EXTGRP:Family/Kids
+#EXTVLCOPT:network-caching=1000
+https://d25tgymtnqzu8s.cloudfront.net/smil:okey/index.m3u8?id=3
+#EXTINF:-1 tvg-chno="104" tvg-id="Sukan RTM" tvg-name="Sukan RTM" tvg-logo="https://raw.githubusercontent.com/FreemediaMY/FreemediaMY/main/assets/freewatch/logos/local/Sukan_RTM.png",Sukan RTM
+#EXTGRP:Sports
+#EXTVLCOPT:network-caching=1000
+https://d25tgymtnqzu8s.cloudfront.net/smil:sukan/index.m3u8?id=4
+#EXTINF:-1 tvg-chno="105" tvg-id="Berita RTM" tvg-name="Berita RTM" tvg-logo="https://raw.githubusercontent.com/FreemediaMY/FreemediaMY/main/assets/freewatch/logos/local/Berita_RTM.png",Berita RTM
+#EXTGRP:News/World
+#EXTVLCOPT:network-caching=1000
+https://d25tgymtnqzu8s.cloudfront.net/smil:berita/index.m3u8?id=5
+
+#----------------------------新加坡分类(https://github.com/alantang1977/X/blob/main/X.json)---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+#---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 #EXTM3U url-tvg="https://raw.githubusercontent.com/dbghelp/StarHub-TV-EPG/refs/heads/main/starhub.xml, https://raw.githubusercontent.com/dbghelp/mewatch-EPG/refs/heads/main/mewatch.xml" refresh="3600"
 #EXTINF:-1 group-title="Mediacorp SG"  tvg-id="97098" tvg-logo="https://prod98.togglestatic.com/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&ImageId='6318760'&EntityType='Item'&EntityId='97098'&Width=356&Height=250", Channel 5
 #KODIPROP:inputstream.adaptive.license_type=clearkey
