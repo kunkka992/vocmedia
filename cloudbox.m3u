@@ -94,7 +94,16 @@ https://linearjitp-playback.astro.com.my/dash-wv/linear/2706/default_ott.mpd?cha
 http://o11.163189.xyz/stream/live/hxt/
 #EXTINF:-1 tvg-name="爱奇艺" tvg-logo="" group-title="Chinese",爱奇艺
 https://o11.163189.xyz/stream/live/iqiyi/
-#EXTINF:-1 tvg-id="翡翠台" tvg-name="翡翠台" tvg-logo="" group-title="Chinese",翡翠台
+
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=dash
+#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
+#KODIPROP:inputstream.adaptive.license_key=fe1219019a9f36cdef347088e592ca10:cb9e1a122ed1c6445f7d3fd2162358f1
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 13; Reno 4 Pro Build/PEcU0p; wv) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.1.2758.20 Safari/537.36
+#EXTINF:-1 tvg-id="TVBJADE" tvg-name="TVB Jade" tvg-logo="" group-title="Chinese" tvg-chno="4255" tvg-shift="0",马来翡翠台
+https://get.perfecttv.net/dash2.mpd?username=vip_3klp0es8&password=wg3piwEs&channel=tvbjade
+
+#EXTINF:-1 tvg-id="翡翠台" tvg-name="翡翠台" tvg-logo="" group-title="Chinese",香港翡翠台
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=0958b9c657622c465a6205eb2252b8ed:2d2fd7b1661b1e28de38268872b48480
