@@ -6,11 +6,11 @@
 #----------------------------siaran tv分类(https://github.com/FreemediaMY/FreemediaMY/blob/main/FreewatchMY)---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 #---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 #EXTM3U
-#EXTINF:-1 tvg-chno="101" tvg-id="TV1" tvg-name="TV1" tvg-logo="https://raw.githubusercontent.com/FreemediaMY/FreemediaMY/main/assets/freewatch/logos/local/RTM1.png",group-title="Siaran Tv" TV 1
+#EXTINF:-1 group-title="Siaran Tv" tvg-id="TV1" tvg-name="TV1" tvg-logo="https://raw.githubusercontent.com/FreemediaMY/FreemediaMY/main/assets/freewatch/logos/local/RTM1.png", TV 1
 #EXTGRP:Family/Kids
 #EXTVLCOPT:network-caching=1000
 https://d25tgymtnqzu8s.cloudfront.net/smil:tv1/index.m3u8?id=1
-#EXTINF:-1 tvg-chno="102" tvg-id="TV2" tvg-name="TV2" tvg-logo="https://raw.githubusercontent.com/FreemediaMY/FreemediaMY/main/assets/freewatch/logos/local/RTM2.png",group-title="Siaran Tv" TV 2
+#EXTINF:-1 group-title="Siaran Tv" tvg-id="TV2" tvg-name="TV2" tvg-logo="https://raw.githubusercontent.com/FreemediaMY/FreemediaMY/main/assets/freewatch/logos/local/RTM2.png", TV 2
 #EXTGRP:Family/Kids
 #EXTVLCOPT:network-caching=1000
 https://d25tgymtnqzu8s.cloudfront.net/smil:tv2/index.m3u8?id=2
@@ -25,7 +25,7 @@ https://linearjitp-playback.astro.com.my/dash-wv/linear/809/default_primary.mpd
 
 #----------------------------siaran tv分类(https://github.com/FreemediaMY/FreemediaMY/blob/main/FreewatchMY)---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 #---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-#EXTINF:-1 tvg-chno="106" tvg-id="TV6" tvg-name="TV6" tvg-logo="https://raw.githubusercontent.com/FreemediaMY/FreemediaMY/main/assets/freewatch/logos/local/RTM6.png",group-title="Siaran Tv" TV 6
+#EXTINF:-1 group-title="Siaran Tv" tvg-id="TV6" tvg-name="TV6" tvg-logo="https://raw.githubusercontent.com/FreemediaMY/FreemediaMY/main/assets/freewatch/logos/local/RTM6.png", TV 6
 #EXTGRP:Family/Kids
 #EXTVLCOPT:network-caching=1000
 https://d25tgymtnqzu8s.cloudfront.net/smil:tv6/index.m3u8?id=6
@@ -37,15 +37,15 @@ http://cdn6.163189.xyz/163189/8tv
 
 #----------------------------siaran tv分类(https://github.com/FreemediaMY/FreemediaMY/blob/main/FreewatchMY)---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 #---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-#EXTINF:-1 tvg-chno="103" tvg-id="Okey" tvg-name="Okey" tvg-logo="https://raw.githubusercontent.com/FreemediaMY/FreemediaMY/main/assets/freewatch/logos/local/RTM_Okey.png",group-title="Siaran Tv" RTM Okey
+#EXTINF:-1 group-title="Siaran Tv" tvg-id="Okey" tvg-name="Okey" tvg-logo="https://raw.githubusercontent.com/FreemediaMY/FreemediaMY/main/assets/freewatch/logos/local/RTM_Okey.png", RTM Okey
 #EXTGRP:Family/Kids
 #EXTVLCOPT:network-caching=1000
 https://d25tgymtnqzu8s.cloudfront.net/smil:okey/index.m3u8?id=3
-#EXTINF:-1 tvg-chno="104" tvg-id="Sukan RTM" tvg-name="Sukan RTM" tvg-logo="https://raw.githubusercontent.com/FreemediaMY/FreemediaMY/main/assets/freewatch/logos/local/Sukan_RTM.png",group-title="Siaran Tv" Sukan RTM
+#EXTINF:-1 group-title="Siaran Tv" tvg-id="Sukan RTM" tvg-name="Sukan RTM" tvg-logo="https://raw.githubusercontent.com/FreemediaMY/FreemediaMY/main/assets/freewatch/logos/local/Sukan_RTM.png", Sukan RTM
 #EXTGRP:Sports
 #EXTVLCOPT:network-caching=1000
 https://d25tgymtnqzu8s.cloudfront.net/smil:sukan/index.m3u8?id=4
-#EXTINF:-1 tvg-chno="105" tvg-id="Berita RTM" tvg-name="Berita RTM" tvg-logo="https://raw.githubusercontent.com/FreemediaMY/FreemediaMY/main/assets/freewatch/logos/local/Berita_RTM.png",group-title="Siaran Tv" Berita RTM
+#EXTINF:-1 group-title="Siaran Tv" tvg-id="Berita RTM" tvg-name="Berita RTM" tvg-logo="https://raw.githubusercontent.com/FreemediaMY/FreemediaMY/main/assets/freewatch/logos/local/Berita_RTM.png", Berita RTM
 #EXTGRP:News/World
 #EXTVLCOPT:network-caching=1000
 https://d25tgymtnqzu8s.cloudfront.net/smil:berita/index.m3u8?id=5
@@ -72,10 +72,10 @@ https://tglmp01.akamaized.net/out/v1/8605c1013e3148aa809c296dd76c3fa5/manifest.m
 
 #-----------------------------中文分类(https://php.946985.filegear-sg.me/jackTV.m3u)---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 #-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-#EXTINF:-1 group-title="Chinese",AOD(字幕和语言)
-https://o11.163189.xyz/stream/live/aod/
 #EXTINF:-1 group-title="Chinese",AEC(字幕和语言)
 https://o11.163189.xyz/stream/live/aec/
+#EXTINF:-1 group-title="Chinese",AOD(字幕和语言)
+https://o11.163189.xyz/stream/live/aod/
 #EXTINF:-1 tvg-name="欢喜台" tvg-logo="" group-title="Chinese",欢喜台
 http://o11.163189.xyz/stream/live/hxt/
 #EXTINF:-1 tvg-name="爱奇艺" tvg-logo="" group-title="Chinese",爱奇艺
