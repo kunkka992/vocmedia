@@ -352,10 +352,7 @@ https://bein-xtra-xumo.amagi.tv/hls/amagi_hls_data_beinAAAAA-bein-xtra-xumoA/CDN
 https://d32ee6d372f04fd5bd07bc10fad73eca.mediatailor.ap-southeast-1.amazonaws.com/v1/dash/ceb8322ae2e84c32cb0fce196fdc60100025ab50/MT-CH22-dash/default_primary.mpd?astro=true
 
 #EXTINF:-1 tvg-id="Badminton" tvg-name="" group-title="Sports" tvg-logo="https://get.perfecttv.net/logo/badmintonfhd.png",Astro Badminton
-#KODIPROP:inputstreamaddon=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
-#KODIPROP:inputstream.adaptive.license_key=1bca05447d354cb4913a66e125fb75ef:45253aa554c444961fb6a4432abb6b1c
-https://load.perfecttv.net/rwt.m3u8?username=vip_3klp0es8&password=wg3piwEs&channel=badminton
+https://live.catvod.com/?id=L2xyL2RMUU9uUFRCalc2dVpXSnl6Q2FnVmNTdVZMVHVwQzJ5eFUyZ3BOXzRWUG5hQW18Y2Q9NmZiMTE1MzYmY249MWUwZDU4NGMmY3A9NjE4MTEwZTAmY3U9OTcwZjA2OWYmcnA9ZFBfQmpMZEJqTDFsbmloMm5FRg&tk=9336a88a23edce6d4c79e98c1b46e1c3 
 
 #-------------------------badminton2(https://github.com/imanawesome2010/MuZu/blob/main/index.html)----------------------------------------------------------------------------------------------------------------------------------
 #-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
