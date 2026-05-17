@@ -118,10 +118,7 @@ http://mytv.27481716.xyz/mytvsuper/J
 #EXTINF:-1 group-title="Chinese" tvg-id="TVB XING HE" tvg-logo="",星河频道(字幕和语言)
 http://o11.163189.xyz/stream/live/tvbxh/
 #EXTINF:-1 group-title="Chinese",千禧经典台
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=6c308490b3198b62a988917253653692:660578b8966fe8012ad51b9aae7a5d78
-http://mytv.27481716.xyz/mytvsuper/CTVC
+http://o11.163189.xyz/stream/live/tvbc/
 #EXTINF:-1 group-title="Chinese",无线功夫
 http://php.jdshipin.com/TVOD/iptv.php?id=yzwx
 #EXTINF:-1 group-title="Chinese",TVB PLUS
