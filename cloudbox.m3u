@@ -142,10 +142,7 @@ http://mytv.27481716.xyz/mytvsuper/CTVE
 #KODIPROP:inputstream.adaptive.license_key=56603b65fa1d7383b6ef0e73b9ae69fa:5d9d8e957d2e45d8189a56fe8665aaaa
 http://mytv.27481716.xyz/mytvsuper/B
 #EXTINF:-1 group-title="Chinese",天映频道(字幕和语言)
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=627b6ca150887912bec47ae4a9b85269:2bf49b2105d20544a6db89c0577b9802
-http://mytv.27481716.xyz/mytvsuper/CCCM
+http://o11.163189.xyz/stream/live/typd/
 #EXTINF:-1 group-title="Chinese",天映经典频道(字幕和语言)
 http://o11.163189.xyz/stream/live/ccm/
 #EXTINF:-1 tvg-id="美亞電影台-HK" tvg-name="美亚电影台" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/美亚电影.png" group-title="Chinese",美亞電影台
