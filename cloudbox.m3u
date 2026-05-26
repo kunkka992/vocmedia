@@ -311,12 +311,12 @@ https://amg01314-amg01314c8-distrotv-us-10218.playouts.now.amagi.tv/playlist/amg
 
 #--------------------------kid分类(https://github.com/alantang1977/X/blob/main/X.json)-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 #-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-#EXTINF:-1 group-title="Malaysia" tvg-id="CARTOON NETWORK" tvg-logo="",CARTOON NETWORK
+#EXTINF:-1 group-title="KIDS" tvg-id="CARTOON NETWORK" tvg-logo="",CARTOON NETWORK
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=2da2675c6da34253b376318ef350cf19:688c0015a6b4863f0663f25f42036800
 https://unifi-live2.secureswiftcontent.com/Content/DASH/Live/channel(CartoonNet)/manifest.mpd
 
-#EXTINF:-1 group-title="Malaysia" tvg-id="CBEEBIES" tvg-logo="",CBEEBIES
+#EXTINF:-1 group-title="KIDS" tvg-id="CBEEBIES" tvg-logo="",CBEEBIES
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=cc5bdbd024fe456ba6613471e4931041:d48c61044cef51adb33bf6999f23e967
 https://unifi-live2.secureswiftcontent.com/Content/DASH/Live/channel(Cbeebies)/manifest.mpd 
@@ -327,22 +327,22 @@ https://unifi-live2.secureswiftcontent.com/Content/DASH/Live/channel(Cbeebies)/m
 #KODIPROP:inputstream.adaptive.license_key=be9caaa813c5305e761c66ac63645901:3d40f2990ec5362ca5be3a3c9bb8f8b4
 https://a77aivottepl-a.akamaihd.net/pdx-nitro/live/clients/dash/enc/zuf794yutz/out/v1/ca3534bfe4f148298b36719204d108e0/cenc.mpd
 
-#EXTINF:-1 group-title="Malaysia" tvg-id="DREAMWORKS" tvg-logo="",DREAMWORKS
+#EXTINF:-1 group-title="KIDS" tvg-id="DREAMWORKS" tvg-logo="",DREAMWORKS
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=e8ce35ed8bc34772abedd63383aa11b7:1d2d76741e825e5c7babf597374b016e
 https://unifi-live2.secureswiftcontent.com/Content/DASH/Live/channel(Dreamworks)/manifest.mpd
 
-#EXTINF:-1 group-title="Malaysia" tvg-id="MOONBUG" tvg-logo="",MOONBUG
+#EXTINF:-1 group-title="KIDS" tvg-id="MOONBUG" tvg-logo="",MOONBUG
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=c3189457b38b4ed9888c5a2e763f0ab8:d4dc62e11dd1856ed4f9a26d44271d0b
 https://unifi-live2.secureswiftcontent.com/Content/DASH/Live/channel(Moonbug)/manifest.mpd
 
-#EXTINF:-1 group-title="Malaysia" tvg-id="NICKELODEON" tvg-logo="",NICKELODEON
+#EXTINF:-1 group-title="KIDS" tvg-id="NICKELODEON" tvg-logo="",NICKELODEON
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=9b10e787fac84ff484c8c7d7f7668925:7d7d3793e4489f6ebc50d002e4bdbd44
 https://unifi-live2.secureswiftcontent.com/Content/DASH/Live/channel(Nickelodeon)/manifest.mpd
 
-#EXTINF:-1 group-title="Malaysia" tvg-id="NICKJR" tvg-logo="",NICKJR
+#EXTINF:-1 group-title="KIDS" tvg-id="NICKJR" tvg-logo="",NICKJR
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=fe60385da93e48cda9dce2c686862462:8e7c6f6beb074f153da1b00c3cf95908
 https://unifi-live2.secureswiftcontent.com/Content/DASH/Live/channel(Nickjr)/manifest.mpd
