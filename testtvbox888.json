@@ -1,0 +1,19 @@
+{
+  "spider": "https://github.com/kunkka992/vocmedia/blob/main/yfsp.js",
+  "sites": [
+    {
+      "key": "yfsp",
+      "name": "爱壹帆",
+      "type": 3,
+      "api": "csp_yfsp",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "changeable": 0,
+      "playerType": 1,
+      "timeout": 30
+    }
+  ],
+  "parses": [],
+  "flags": ["yfsp"]
+}
