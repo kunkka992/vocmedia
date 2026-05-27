@@ -20,7 +20,7 @@
     {"key": "瓜子影视","name": "瓜子｜影视","type": 3,"api": "csp_Gz360"},
     {"key": "永乐影视","name": "永乐｜影视","type": 3,"api": "csp_XBPQ","ext": "./XBPQ/永乐影视.json"},
     {"key": "drpy_js_小宝影院[飞]","name":"起飞 | 小宝影院[js]","type":3,"api":"./lib/drpy2.min.js","ext":"./js/小宝影院[飞].js"},
-    {"key": "Aiyf","name":"壹帆｜墙外","type":3,"api":"csp_AiyfAmns","searchable":1,"quickSearch":1,"filterable":1,"changeable":0,"jar":"./jar/aiyf.jar;md5;e9e41c69aae6d5546e4b9ae8266744be"},
+    {"key":"yfsp","name":"爱壹帆","type":3,"api":"csp_yfsp","searchable":1,"quickSearch":1,"filterable":1,"changeable":0,"playerType":1,"timeout":30,"jar":"https://github.com/kunkka992/vocmedia/blob/main/yfsp.js"},
     {"key": "SdzhgtClean","name":"金牌｜影院[jar]","type":3,"api":"csp_SdzhgtClean","searchable":1,"quickSearch":1,"filterable":1,"changeable":0,"playerType":1,"timeout":30,"jar":"./jar/sdzhgt_clean.jar;md5;22e4a060de0b49c207d3c871d863bd89"},
     {"key": "drpy_js_华人OK","name":"影视 | 华人OK[js]","type":3,"api":"./lib/drpy2.min.js","ext":"./js/huarenok.js","searchable":1,"quickSearch":1,"filterable":1,"changeable":0,"timeout":30,"header":{"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36 Edg/136.0.0.0","Referer":"https://huarenok.com/"}},
     {"key": "drpy_js_网易公版影像","name": "聚合 | 网易公版[js]","type": 3,"api": "./lib/drpy2.min.js","changeable": 0,"style": {"type": "rect","ratio": 1.597},"ext": "./js/网易公版影像.js"},
