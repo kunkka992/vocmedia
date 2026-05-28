@@ -1,0 +1,30 @@
+#EXTM3U
+#EXTINF:-1 group-logo="" group-title="SPORTS FHD" tvg-id="Badminton" tvg-logo="https://get.perfecttv.net/logo/badminton.png" group-logo="",809 testbadminton
+#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
+#KODIPROP:inputstream.adaptive.license_key=6ff0e040d544ec3f02243865990f0c10:83728b47019abdbb37aa36ed5f2951bd
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; U; Android 12 Build/KTR982) AppleWebKit/537.36 (KHTML, like Gecko) like Chrome/39.0919371775 Safari/537.36
+https://linears2-playback.astro.com.my/vsg/41wbIn0ep9DBSAVWHWHg5LfpIioBTe33xqIhBN5pAjrFc=-Rww/dash-wv/jitp-linearwm/5170/default_primary.mpd
+
+#EXTINF:-1 group-logo="" group-title="SPORTS FHD" tvg-id="Badminton" tvg-logo="https://get.perfecttv.net/logo/badminton.png" group-logo="",pl1
+#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
+#KODIPROP:inputstream.adaptive.license_key=f749ab71f227999bfb098f73359aac10:4f15413f7e4767b50c48e19b7f9a2fcc
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; U; Android 12 Build/KTR982) AppleWebKit/537.36 (KHTML, like Gecko) like Chrome/39.0919371775 Safari/537.36
+https://linears2-playback.astro.com.my/vsg/41I94Jn6yFR1mvrBg_GlvcH1dJpJCOIDqcc-7P16wYDqM=7umn/dash-wv/jitp-linearwm/601/default_primary.mpd
+
+#EXTINF:-1 group-logo="" group-title="SPORTS FHD" tvg-id="Badminton" tvg-logo="https://get.perfecttv.net/logo/badminton.png" group-logo="",pl2
+#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
+#KODIPROP:inputstream.adaptive.license_key=c1dc92f0789f112503c0db3bde2f1210:ddfa6e8d549b4d5177a9cade7f9a0b23
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; U; Android 12 Build/KTR982) AppleWebKit/537.36 (KHTML, like Gecko) like Chrome/39.0919371775 Safari/537.36
+https://linears2-playback.astro.com.my/vsg/41xjT0SX9LH60ST3ckC23CsZZnbralzGDSKrsLzHtN1Vw=aG3h/dash-wv/jitp-linearwm/2104/default_primary.mpd
+
+#EXTINF:-1 group-logo="" group-title="SPORTS FHD" tvg-id="Badminton" tvg-logo="https://get.perfecttv.net/logo/badminton.png" group-logo="",football
+#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
+#KODIPROP:inputstream.adaptive.license_key=79f4028730acca9ab8b00f26158ddb10:91febe843c08c7cc523efd827292e40e
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; U; Android 12 Build/KTR982) AppleWebKit/537.36 (KHTML, like Gecko) like Chrome/39.0919371775 Safari/537.36
+https://linears2-playback.astro.com.my/vsg/41E7c73zMy5Ap4umsdQ4mkIdGPx3LB6BTMYhLgvyhF_C4=MRjh/dash-wv/jitp-linearwm/2506/default_primary.mpd
+
+#EXTINF:-1 group-logo="" group-title="SPORTS FHD" tvg-id="Badminton" tvg-logo="https://get.perfecttv.net/logo/badminton.png" group-logo="",granstand
+#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
+#KODIPROP:inputstream.adaptive.license_key=5be66a6f88efee3d6e30f72a9c58e310:168f3fadfc730ba3dfc932f7c430e27d
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; U; Android 12 Build/KTR982) AppleWebKit/537.36 (KHTML, like Gecko) like Chrome/39.0919371775 Safari/537.36
+https://linears2-playback.astro.com.my/vsg/411Cr4wrD06dh645kAruMnz4w1DUQNVmJWafXOZIfjemA=6tSw/dash-wv/jitp-linearwm/2701/default_primary.mpd
