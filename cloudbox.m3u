@@ -37,7 +37,7 @@ https://d25tgymtnqzu8s.cloudfront.net/smil:tv6/index.m3u8?id=6
 #KODIPROP:inputstream.adaptive.manifest_type=dash
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
 #KODIPROP:inputstream.adaptive.license_key=da1cb24f55db4ae1b32319c365920539:721af66b9c3e8c4166b8b4586d1fbefd
-https://sghost.mobileads.uno/uni5/uni5.mpd?id=8TV&provider=mytech
+https://ngtv-live-cbj.gcdn.co/Content/DASH/Live/channel(8TV)/master.mpd?kid=da1cb24f-55db-4ae1-b323-19c365920539
 
 #----------------------------siaran tv分类(https://github.com/FreemediaMY/FreemediaMY/blob/main/FreewatchMY)---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 #---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
