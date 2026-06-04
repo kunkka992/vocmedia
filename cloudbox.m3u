@@ -45,10 +45,12 @@ https://ngtv-live-cbj.gcdn.co/Content/DASH/Live/channel(8TV)/master.mpd?kid=da1c
 #EXTGRP:Family/Kids
 #EXTVLCOPT:network-caching=1000
 https://d25tgymtnqzu8s.cloudfront.net/smil:okey/index.m3u8?id=3
+
 #EXTINF:-1 group-title="Siaran Tv" tvg-id="Sukan RTM" tvg-name="Sukan RTM" tvg-logo="https://raw.githubusercontent.com/FreemediaMY/FreemediaMY/main/assets/freewatch/logos/local/Sukan_RTM.png", Sukan RTM
-#EXTGRP:Sports
-#EXTVLCOPT:network-caching=1000
-https://d25tgymtnqzu8s.cloudfront.net/smil:sukan/index.m3u8?id=4
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0
+#EXTHTTP:{"Origin": "https://rtmklik.rtm.gov.my/", "Referer": "https://rtmklik.rtm.gov.my/"}
+https://d25tgymtnqzu8s.cloudfront.net/smil:sukan/playlist.m3u8?id=4
+
 #EXTINF:-1 group-title="Siaran Tv" tvg-id="Berita RTM" tvg-name="Berita RTM" tvg-logo="https://raw.githubusercontent.com/FreemediaMY/FreemediaMY/main/assets/freewatch/logos/local/Berita_RTM.png", Berita RTM
 #EXTGRP:News/World
 #EXTVLCOPT:network-caching=1000
