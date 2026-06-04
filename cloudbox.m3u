@@ -10,7 +10,7 @@
 https://live.mana2.my/Tv1/tracks-v1a1/mono.m3u8?token=1780609089-6765f8cb0d3a426aae1077819bec0bf5-0-86ca7ec3a2b26d9d9f17155be948f3b5&auth_key=1780609089-6765f8cb0d3a426aae1077819bec0bf5-0-81169255facb603354f0a0c682a06489
 
 #EXTINF:-1 group-title="Siaran Tv" tvg-id="TV2" tvg-name="TV2" tvg-logo="https://raw.githubusercontent.com/FreemediaMY/FreemediaMY/main/assets/freewatch/logos/local/RTM2.png", TV 2
-https://live.mana2.my/Tv2/index.m3u8?auth_key=1780609333-05f2473af2754e86b389e1ebcb931f23-0-8585c51e674777d600efd191d659ec21&token=1780609333-05f2473af2754e86b389e1ebcb931f23-0-8585c51e674777d600efd191d659ec21
+https://live.mana2.my/Tv2/index.m3u8?auth_key=1780610415-f2ba03512c9c4c07ba1bc5572e35be24-0-4caeb76d4a801de711329a3a1e5f7188&token=1780610415-f2ba03512c9c4c07ba1bc5572e35be24-0-4caeb76d4a801de711329a3a1e5f7188
 
 #----------------------------siaran tv分类(https://github.com/MIFNtechnology/StreamLiveTv/blob/main/myIPtv.m3u8)---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 #---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -37,10 +37,10 @@ https://ngtv-live-cbj.gcdn.co/Content/DASH/Live/channel(8TV)/master.mpd?kid=da1c
 #----------------------------siaran tv分类(https://www.mana2.my/)---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 #---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 #EXTINF:-1 group-title="Siaran Tv" tvg-id="Okey" tvg-name="Okey" tvg-logo="https://raw.githubusercontent.com/FreemediaMY/FreemediaMY/main/assets/freewatch/logos/local/RTM_Okey.png", RTM Okey
-https://live.mana2.my/TvOkey/tracks-v1a1/mono.m3u8?token=1780609466-228494df220e44bb9777a42c6e867f45-0-94c6a9ec51d93b455dc19b1ed814a081&auth_key=1780609466-228494df220e44bb9777a42c6e867f45-0-42786c9917e25417ad4ff4316a05569d
+https://live.mana2.my/TvOkey/index.m3u8?auth_key=1780610302-19815ddd9317430a93657c3b4a6e3fd4-0-42ae2fdff23f4a0c4b477fbaabbdf09a&token=1780610302-19815ddd9317430a93657c3b4a6e3fd4-0-42ae2fdff23f4a0c4b477fbaabbdf09a
 
 #EXTINF:-1 group-title="Siaran Tv" tvg-id="Sukan RTM" tvg-name="Sukan RTM" tvg-logo="https://raw.githubusercontent.com/FreemediaMY/FreemediaMY/main/assets/freewatch/logos/local/Sukan_RTM.png", Sukan RTM
-https://live.mana2.my/SukanRtm/tracks-v1a1/mono.m3u8?token=1780609523-3f232c3c27d54fc2886e4218169a1a1c-0-ce2f931a60c2a5f44e30c8e6f29409aa&auth_key=1780609523-3f232c3c27d54fc2886e4218169a1a1c-0-e619ab659231c852cbd1dc0119eb32dd
+https://live.mana2.my/SukanRtm/index.m3u8?auth_key=1780610464-b560d5c9152b40edb07df7e759ee097d-0-c21c0baa626cb1493fe49f79a28fa6c8&token=1780610464-b560d5c9152b40edb07df7e759ee097d-0-c21c0baa626cb1493fe49f79a28fa6c8
 
 #EXTINF:-1 group-title="Siaran Tv" tvg-id="Berita RTM" tvg-name="Berita RTM" tvg-logo="https://raw.githubusercontent.com/FreemediaMY/FreemediaMY/main/assets/freewatch/logos/local/Berita_RTM.png", Berita RTM
 https://live.mana2.my/BeritaRtm/tracks-v1a1/mono.m3u8?token=1780609962-a327d1c5b2b5477ab02b8bc8d2d6cd8c-0-4f3952930eb6766b21833d0133a42d29&auth_key=1780609962-a327d1c5b2b5477ab02b8bc8d2d6cd8c-0-cc198985afe0255b0afd6eb4326665d4
