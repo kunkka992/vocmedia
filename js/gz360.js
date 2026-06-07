@@ -1,8 +1,8 @@
 var rule = {
-    title: '瓜子影视',
+    title: '\u74dc\u5b50\u5f71\u89c6',
     host: 'https://gz360.tv',
     homeUrl: '/',
-    detailUrl: 'gz360://fyid',
+    detailUrl: 'fyid',
     url: 'gz360://fyclass/fypage',
     searchUrl: 'gz360://search?wd=**',
     searchable: 1,
@@ -14,16 +14,26 @@ var rule = {
         'Referer': 'https://gz360.tv/',
         'Origin': 'https://gz360.tv'
     },
-    class_name: '首页推荐&电影&电视剧&综艺&动漫&短剧&Netflix&电影解说',
-    class_url: 'hot102&1&2&3&4&64&netflix&73',
+    class_name: '\u7535\u5f71&\u7535\u89c6\u5267&\u7efc\u827a&\u52a8\u6f2b&\u77ed\u5267&\u7535\u5f71\u89e3\u8bf4',
+    class_url: '1&2&3&4&64&73',
     filter: {},
-    预处理: `js:
-        var API_HOSTS = ['https://haiwaiapi.1fc8ab0.com', 'https://hyperf.718fd9f.com'];
+    '\u9884\u5904\u7406': `js:
+        var API_HOSTS = ['https://haiwaiapi.1fc8ab0.com'];
+        function isUsefulResponse(path, jo) {
+            if (!jo || !jo.data) return false;
+            var data = jo.data;
+            if (path.indexOf('GetCondition') >= 0 && !Array.isArray(data.list)) return Array.isArray(data.column);
+            if (path.indexOf('GetVodInfo') >= 0) return !!(data.vodInfo || data.vod || data.vod_name);
+            if (path.indexOf('GetOnePlayList') >= 0) return Array.isArray(data.urls) && data.urls.length > 0;
+            if (path.indexOf('GetList') >= 0) return (Array.isArray(data.list) && data.list.length > 0) || (Array.isArray(data.czList) && data.czList.length > 0);
+            if (path.indexOf('GetModuleList') >= 0 || path.indexOf('GetConditionList') >= 0) return Array.isArray(data.list) && data.list.length > 0;
+            return true;
+        }
         function apiPost(path, body) {
             var last = '';
             for (var i = 0; i < API_HOSTS.length; i++) {
                 try {
-                    var txt = post(API_HOSTS[i] + path, {
+                    var txt = request(API_HOSTS[i] + path, {
                         headers: {
                             'User-Agent': rule.headers['User-Agent'],
                             'Referer': rule.headers.Referer,
@@ -34,7 +44,7 @@ var rule = {
                     });
                     last = txt;
                     var jo = JSON.parse(txt);
-                    if (jo && (jo.code === 200 || jo.data)) return jo;
+                    if (isUsefulResponse(path, jo)) return jo;
                 } catch (e) {}
             }
             if (last) return JSON.parse(last);
@@ -69,21 +79,31 @@ var rule = {
                     break;
                 }
             }
-            addRow(rows, 'class', '类型', cls);
-            addRow(rows, 'area', '地区', cond.area);
-            addRow(rows, 'year', '年份', cond.year);
-            addRow(rows, 'lang', '语言', cond.lang);
-            addRow(rows, 'sort', '排序', cond.sort);
+            addRow(rows, 'class', '\u7c7b\u578b', cls);
+            addRow(rows, 'area', '\u5730\u533a', cond.area);
+            addRow(rows, 'year', '\u5e74\u4efd', cond.year);
+            addRow(rows, 'lang', '\u8bed\u8a00', cond.lang);
+            addRow(rows, 'sort', '\u6392\u5e8f', cond.sort);
             filters[tid] = rows;
         }
         rule.filter = filters;
     `,
-    推荐: `js:
-        var API_HOSTS = ['https://haiwaiapi.1fc8ab0.com', 'https://hyperf.718fd9f.com'];
+    '\u63a8\u8350': `js:
+        var API_HOSTS = ['https://haiwaiapi.1fc8ab0.com'];
+        function isUsefulResponse(path, jo) {
+            if (!jo || !jo.data) return false;
+            var data = jo.data;
+            if (path.indexOf('GetCondition') >= 0 && !Array.isArray(data.list)) return Array.isArray(data.column);
+            if (path.indexOf('GetVodInfo') >= 0) return !!(data.vodInfo || data.vod || data.vod_name);
+            if (path.indexOf('GetOnePlayList') >= 0) return Array.isArray(data.urls) && data.urls.length > 0;
+            if (path.indexOf('GetList') >= 0) return (Array.isArray(data.list) && data.list.length > 0) || (Array.isArray(data.czList) && data.czList.length > 0);
+            if (path.indexOf('GetModuleList') >= 0 || path.indexOf('GetConditionList') >= 0) return Array.isArray(data.list) && data.list.length > 0;
+            return true;
+        }
         function apiPost(path, body) {
             for (var i = 0; i < API_HOSTS.length; i++) {
                 try {
-                    var txt = post(API_HOSTS[i] + path, {
+                    var txt = request(API_HOSTS[i] + path, {
                         headers: {
                             'User-Agent': rule.headers['User-Agent'],
                             'Referer': rule.headers.Referer,
@@ -93,7 +113,7 @@ var rule = {
                         body: JSON.stringify(body || {})
                     });
                     var jo = JSON.parse(txt);
-                    if (jo && jo.data) return jo;
+                    if (isUsefulResponse(path, jo)) return jo;
                 } catch (e) {}
             }
             return {};
@@ -104,6 +124,7 @@ var rule = {
             for (var i = 0; i < list.length; i++) {
                 var it = list[i], id = String(it.vod_id || it.id || '');
                 var name = it.vod_name || it.c_name || '';
+                if (Array.isArray(it.vurlList) && it.vurlList.length === 0) continue;
                 if (!id || !name || seen[id]) continue;
                 seen[id] = 1;
                 out.push({
@@ -118,12 +139,22 @@ var rule = {
         var jo = apiPost('/Pc/Category/GetModuleList', { show_id: 102, show_pid: 1, pageSize: 24, page: 1 });
         VODS = vods(jo.data && jo.data.list);
     `,
-    一级: `js:
-        var API_HOSTS = ['https://haiwaiapi.1fc8ab0.com', 'https://hyperf.718fd9f.com'];
+    '\u4e00\u7ea7': `js:
+        var API_HOSTS = ['https://haiwaiapi.1fc8ab0.com'];
+        function isUsefulResponse(path, jo) {
+            if (!jo || !jo.data) return false;
+            var data = jo.data;
+            if (path.indexOf('GetCondition') >= 0 && !Array.isArray(data.list)) return Array.isArray(data.column);
+            if (path.indexOf('GetVodInfo') >= 0) return !!(data.vodInfo || data.vod || data.vod_name);
+            if (path.indexOf('GetOnePlayList') >= 0) return Array.isArray(data.urls) && data.urls.length > 0;
+            if (path.indexOf('GetList') >= 0) return (Array.isArray(data.list) && data.list.length > 0) || (Array.isArray(data.czList) && data.czList.length > 0);
+            if (path.indexOf('GetModuleList') >= 0 || path.indexOf('GetConditionList') >= 0) return Array.isArray(data.list) && data.list.length > 0;
+            return true;
+        }
         function apiPost(path, body) {
             for (var i = 0; i < API_HOSTS.length; i++) {
                 try {
-                    var txt = post(API_HOSTS[i] + path, {
+                    var txt = request(API_HOSTS[i] + path, {
                         headers: {
                             'User-Agent': rule.headers['User-Agent'],
                             'Referer': rule.headers.Referer,
@@ -133,7 +164,7 @@ var rule = {
                         body: JSON.stringify(body || {})
                     });
                     var jo = JSON.parse(txt);
-                    if (jo && jo.data) return jo;
+                    if (isUsefulResponse(path, jo)) return jo;
                 } catch (e) {}
             }
             return {};
@@ -144,6 +175,7 @@ var rule = {
             for (var i = 0; i < list.length; i++) {
                 var it = list[i], id = String(it.vod_id || it.id || '');
                 var name = it.vod_name || it.c_name || '';
+                if (Array.isArray(it.vurlList) && it.vurlList.length === 0) continue;
                 if (!id || !name || seen[id]) continue;
                 seen[id] = 1;
                 out.push({
@@ -179,12 +211,22 @@ var rule = {
         }
         VODS = vods(jo.data && jo.data.list);
     `,
-    二级: `js:
-        var API_HOSTS = ['https://haiwaiapi.1fc8ab0.com', 'https://hyperf.718fd9f.com'];
+    '\u4e8c\u7ea7': `js:
+        var API_HOSTS = ['https://haiwaiapi.1fc8ab0.com'];
+        function isUsefulResponse(path, jo) {
+            if (!jo || !jo.data) return false;
+            var data = jo.data;
+            if (path.indexOf('GetCondition') >= 0 && !Array.isArray(data.list)) return Array.isArray(data.column);
+            if (path.indexOf('GetVodInfo') >= 0) return !!(data.vodInfo || data.vod || data.vod_name);
+            if (path.indexOf('GetOnePlayList') >= 0) return Array.isArray(data.urls) && data.urls.length > 0;
+            if (path.indexOf('GetList') >= 0) return (Array.isArray(data.list) && data.list.length > 0) || (Array.isArray(data.czList) && data.czList.length > 0);
+            if (path.indexOf('GetModuleList') >= 0 || path.indexOf('GetConditionList') >= 0) return Array.isArray(data.list) && data.list.length > 0;
+            return true;
+        }
         function apiPost(path, body) {
             for (var i = 0; i < API_HOSTS.length; i++) {
                 try {
-                    var txt = post(API_HOSTS[i] + path, {
+                    var txt = request(API_HOSTS[i] + path, {
                         headers: {
                             'User-Agent': rule.headers['User-Agent'],
                             'Referer': rule.headers.Referer,
@@ -194,7 +236,7 @@ var rule = {
                         body: JSON.stringify(body || {})
                     });
                     var jo = JSON.parse(txt);
-                    if (jo && jo.data) return jo;
+                    if (isUsefulResponse(path, jo)) return jo;
                 } catch (e) {}
             }
             return {};
@@ -203,8 +245,8 @@ var rule = {
             return v === undefined || v === null ? '' : String(v);
         }
         var src = String(typeof orId !== 'undefined' && orId ? orId : input || MY_URL || '');
-        var m = src.match(/(\\d+)/);
-        var id = m ? m[1] : src;
+        var ms = src.match(/\\d+/g);
+        var id = ms ? ms[ms.length - 1] : src;
         var detail = apiPost('/Pc/Resource/GetVodInfo', { vod_id: id }).data || {};
         var vod = detail.vodInfo || detail.vod || detail || {};
         var plist = apiPost('/Pc/Resource/GetOnePlayList', { vod_id: id, pageSize: 0, page: 1 }).data || {};
@@ -217,10 +259,10 @@ var rule = {
         for (var i = 0; i < urls.length; i++) {
             var u = urls[i].url || urls[i].play_url || '';
             if (!u) continue;
-            eps.push((urls[i].name || urls[i].sort || ('第' + (i + 1) + '集')) + '$' + u);
+            eps.push((urls[i].name || urls[i].sort || ('\u7b2c' + (i + 1) + '\u96c6')) + '$' + u);
         }
-        if (!eps.length && typeof vod.default_play_url === 'string' && vod.default_play_url) eps.push((vod.default_play_name || vod.vod_title || '播放') + '$' + vod.default_play_url);
-        if (!eps.length && typeof vod.play_url === 'string' && vod.play_url) eps.push((vod.default_play_name || vod.vod_title || '播放') + '$' + vod.play_url);
+        if (!eps.length && typeof vod.default_play_url === 'string' && vod.default_play_url) eps.push((vod.default_play_name || vod.vod_title || '\u64ad\u653e') + '$' + vod.default_play_url);
+        if (!eps.length && typeof vod.play_url === 'string' && vod.play_url) eps.push((vod.default_play_name || vod.vod_title || '\u64ad\u653e') + '$' + vod.play_url);
         VOD = {
             vod_id: id,
             vod_name: vod.vod_name || '',
@@ -236,12 +278,22 @@ var rule = {
             vod_play_url: eps.join('#')
         };
     `,
-    搜索: `js:
-        var API_HOSTS = ['https://haiwaiapi.1fc8ab0.com', 'https://hyperf.718fd9f.com'];
+    '\u641c\u7d22': `js:
+        var API_HOSTS = ['https://haiwaiapi.1fc8ab0.com'];
+        function isUsefulResponse(path, jo) {
+            if (!jo || !jo.data) return false;
+            var data = jo.data;
+            if (path.indexOf('GetCondition') >= 0 && !Array.isArray(data.list)) return Array.isArray(data.column);
+            if (path.indexOf('GetVodInfo') >= 0) return !!(data.vodInfo || data.vod || data.vod_name);
+            if (path.indexOf('GetOnePlayList') >= 0) return Array.isArray(data.urls) && data.urls.length > 0;
+            if (path.indexOf('GetList') >= 0) return (Array.isArray(data.list) && data.list.length > 0) || (Array.isArray(data.czList) && data.czList.length > 0);
+            if (path.indexOf('GetModuleList') >= 0 || path.indexOf('GetConditionList') >= 0) return Array.isArray(data.list) && data.list.length > 0;
+            return true;
+        }
         function apiPost(path, body) {
             for (var i = 0; i < API_HOSTS.length; i++) {
                 try {
-                    var txt = post(API_HOSTS[i] + path, {
+                    var txt = request(API_HOSTS[i] + path, {
                         headers: {
                             'User-Agent': rule.headers['User-Agent'],
                             'Referer': rule.headers.Referer,
@@ -251,7 +303,7 @@ var rule = {
                         body: JSON.stringify(body || {})
                     });
                     var jo = JSON.parse(txt);
-                    if (jo && jo.data) return jo;
+                    if (isUsefulResponse(path, jo)) return jo;
                 } catch (e) {}
             }
             return {};
@@ -262,6 +314,7 @@ var rule = {
             for (var i = 0; i < list.length; i++) {
                 var it = list[i], id = String(it.vod_id || it.id || '');
                 var name = it.vod_name || it.c_name || '';
+                if (Array.isArray(it.vurlList) && it.vurlList.length === 0) continue;
                 if (!id || !name || seen[id]) continue;
                 seen[id] = 1;
                 out.push({
