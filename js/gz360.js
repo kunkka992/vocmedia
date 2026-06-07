@@ -14,8 +14,8 @@ var rule = {
         'Referer': 'https://gz360.tv/',
         'Origin': 'https://gz360.tv'
     },
-    class_name: '\u7535\u5f71&\u7535\u89c6\u5267&\u7efc\u827a&\u52a8\u6f2b&\u77ed\u5267&\u7535\u5f71\u89e3\u8bf4',
-    class_url: '1&2&3&4&64&73',
+    class_name: '\u7535\u5f71&\u7535\u89c6\u5267&\u7efc\u827a&\u52a8\u6f2b&\u77ed\u5267&Netflix&\u7535\u5f71\u89e3\u8bf4',
+    class_url: '1&2&3&4&64&netflix&73',
     filter: {},
     '\u9884\u5904\u7406': `js:
         var API_HOSTS = ['https://haiwaiapi.1fc8ab0.com'];
