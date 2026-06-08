@@ -16,6 +16,7 @@
     {"key": "袋鼠影视(JS)","name": "袋鼠影视","type": 3,"api": "./js/袋鼠影视.js","searchable": 1,"quickSearch": 1,"filterable": 1,"switchable": 1},
     {"key": "独播影视","name": "独播｜影视","type": 3,"api": "csp_Duboku"},
     {"key": "xiaobaotv","name":"小宝影院","type":3,"api":"./lib/cloud_bxt.min.js","searchable":1,"quickSearch":1,"filterable":1,"ext":"./js/xiaobaotv.js"},
+    {"key": "yfsp","name":"爱壹帆","type":3,"api":"./lib/cloud_bxt.min.js","searchable":1,"quickSearch":1,"filterable":1,"changeable":0,"ext":"./js/yfsp.js","timeout":30},
     {"key": "baixiaotangtop","name":"天天影院","type":3,"api":"./lib/cloud_bxt.min.js","searchable":1,"quickSearch":1,"filterable":1,"ext":"./js/baixiaotangtop.js"},
     {"key": "电影天堂","name":"🧞无广┃天堂","type":1,"api":"http://caiji.dyttzyapi.com/api.php/provide/vod/from/dyttm3u8/at/json/?ac=list","searchable":1,"quickSearch":0,"filterable":0,"changeable":0,"playUrl":"","categories":["国产剧","香港剧","欧美剧","韩国剧","台湾剧","日本剧","海外剧","泰国剧","记录片","短剧","动作片","喜剧片","爱情片","科幻片","恐怖片","剧情片","战争片","大陆综艺","港台综艺","日韩综艺","欧美综艺","国产动漫","日韩动漫","欧美动漫","港台动漫","动画片"]},
     {"key": "厂长影视","name": "厂长｜影视","type": 3,"api": "csp_Czsapp","searchable": 1,"quickSearch": 1,"filterable": 1,"ext": "https://www.czzymovie.com"},
