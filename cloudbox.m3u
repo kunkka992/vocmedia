@@ -593,6 +593,11 @@ https://get.perfecttv.net/myunifi.mpd?username=vip_3klp0es8&password=wg3piwEs&ch
 #KODIPROP:inputstream.adaptive.license_key=f88c0e6ef2de4f92b7ce07e50cb2d937:7aff86770a0f0ac16b91a372e148a8bd
 https://get.perfecttv.net/myunifi.mpd?username=vip_3klp0es8&password=wg3piwEs&channel=fifa3&kid=f88c0e6e-f2de-4f92-b7ce-07e50cb2d937
 
+#EXTINF:-1 tvg-id="WNYW-DT.us_locals1" tvg-name="FOX 01" tvg-logo="http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s28719_dark_360w_270h.png" group-title="World Cup",FOX 01
+http://89.187.179.148:826/anto.j/c9yJDcXyPe/109548
+#EXTINF:-1 tvg-id="KTTV-DT.us_locals1" tvg-name="FOX 02" tvg-logo="http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s28719_dark_360w_270h.png" group-title="World Cup",FOX 02
+http://89.187.179.148:826/anto.j/c9yJDcXyPe/109511
+
 #EXTINF:-1 tvg-id="unifisports1" tvg-name="" group-title="World Cup" group-logo="" tvg-logo="https://get.perfecttv.net/logo/unifisport.png", 699 Unifi Sport
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=dash
