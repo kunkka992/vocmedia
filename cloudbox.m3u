@@ -377,32 +377,8 @@ https://a196aivottlinear-a.akamaihd.net/OTTB/pdx-nitro/live/clients/dash/enc/o7a
 
 #--------------------------------体育分类-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-#------------------------sky sports(gary)--------------------------------------------------------------------------------------------------------------------------------------------------
+#------------------------bein sports(https://github.com/shareext-reborn/Shareext-UpdateFilesSports.m3u)--------------------------------------------------------------------------------------------------------------------------------------------------
 #-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-
-#EXTINF:-1 tvg-id="SkySp.PL.HD.uk" tvg-name="Sky Sports Premier League UK" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-kingdom/sky-sports-premier-league-uk.png?raw=true" group-title="Sports",Sky Sports Premier League
-http://rocketfx.uk:8080/henry/henry/508337
-#EXTINF:-1 tvg-id="Sky.Sports.Football.HD.uk" tvg-name="Sky Sports Football UK" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-kingdom/sky-sports-football-uk.png?raw=true" group-title="Sports",Sky Sports Football
-http://rocketfx.uk:8080/henry/henry/508347
-
-#------------------------other sports & bein sport(https://github.com/shareext-reborn/Shareext-UpdateFilesSports.m3u)--------------------------------------------------------------------------------------------------------------------------------------------------
-#-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://i.ibb.co.com/n1GRXhD/Skysport-shareext.png" group-title="Sports",SKY SPORTS BUNDESLIGA
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:149.0) Gecko/20100101 Firefox/149.0
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=d8d5823d92a9ef9306a4cc4bd634b4b4:df9fbdaa0ef9e905b75f4692f213af19
-https://nog-live1-ott.izzigo.tv/15/out/u/dash/SKY-SPORTS-24-HD/default.mpd
-
-#EXTINF:-1 group-title="Sports" tvg-logo="https://i.ibb.co.com/BCHXWWH/Shareext-champion-league.jpg",Premiere Sports 1
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=1444f4235529f183f0a5a486befe9cdb:e5e3fec67a1bb3472a2089c8a0a2557f
-https://otte.live.fly.ww.aiv-cdn.net/gru-nitro/live/clients/dash/enc/m6sqanvm2m/out/v1/f6beb46c6e9a4132ad739f3ca27df6aa/cenc.mpd
-
-#EXTINF:-1 group-title="Sports" tvg-logo="https://i.ibb.co.com/BCHXWWH/Shareext-champion-league.jpg",Premiere Sports 2
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=1a5df53609ebc9857898c490f4724918:77f62980d582ec541280796acf8b2d19
-https://otte.live.fly.ww.aiv-cdn.net/gru-nitro/live/clients/dash/enc/bcj3iscpd6/out/v1/fcd137b391214f7cb99dd4d7be90ca87/cenc.mpd
 
 #EXTINF:-1 tvg-logo="https://divign0fdw3sv.cloudfront.net/Images/ChannelLogo/contenthub/236_144.png" group-title="Sports" tvg-id="beINSports" tvg-name="beINSports1", beIN Sports HD
 #KODIPROP:inputstream.adaptive.license_type=clearkey
@@ -539,8 +515,33 @@ https://d2xz2v5wuvgur6.cloudfront.net/out/v1/2fcc58ccec8c45e9aa094fb980eb642d/in
 #EXTINF:-1 tvg-id="NBA" tvg-name="NBA" tvg-logo="https://image.xumo.com/v1/channels/channel/99951383/168x168.png?type=color_onBlack"  group-title="Sports", NBA
 https://dbrb49pjoymg4.cloudfront.net/10001/99951383/hls/playlist.m3u8?ads.xumo_channelId=99951383&ads._fw_ifa_type=&ads._fw_did=7ce08524-f636-4d24-b8d9-ceb894486ebc&ads.amznappId=&ads.lat=&ads.lon=&ads.os=&ads.osv=&ads.asnw=&ads.caid=NBAFASTChannel&ads.csid=xumo_web_NBAFASTChannel_ssai&ads._fw_is_lat=0&ads._fw_us_privacy=&ads._fw_coppa=0&ads.genre=Sport,Sports,SA,SC,SE,SN&ads._fw_content_category=&ads._fw_content_language=en&ads._fw_content_genre=Sport,Sports,SA,SC,SE,SN&ads._fw_content_rating=&ads.xumo_contentId=4185&ads.xumo_contentName=NBAFASTChannel&ads.xumo_providerId=4185&ads.xumo_providerName=NBAFASTChannel&ads._fw_deviceMake=GitHubAction&ads._fw_device_model=PythonScript&ads.channelId=99951383&ads.xumo_platform=web&ads.site_id=&ads.appName=xumo&ads.appVersion=1.0.0&ads._fw_app_bundle=web.xumo.com&ads._fw_app_store_url=
 
-#----------------------------下面这些分类(https://github.com/shareext-reborn/Shareext-UpdateFilesSports.m3u/blob/main/Shareext%40playlist)
+#------------------------sky sports(gary)--------------------------------------------------------------------------------------------------------------------------------------------------
 #-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+#EXTINF:-1 tvg-id="SkySp.PL.HD.uk" tvg-name="Sky Sports Premier League UK" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-kingdom/sky-sports-premier-league-uk.png?raw=true" group-title="Sports",Sky Sports Premier League
+http://rocketfx.uk:8080/henry/henry/508337
+#EXTINF:-1 tvg-id="Sky.Sports.Football.HD.uk" tvg-name="Sky Sports Football UK" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-kingdom/sky-sports-football-uk.png?raw=true" group-title="Sports",Sky Sports Football
+http://rocketfx.uk:8080/henry/henry/508347
+
+#------------------------other sports(https://github.com/shareext-reborn/Shareext-UpdateFilesSports.m3u)--------------------------------------------------------------------------------------------------------------------------------------------------
+#-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://i.ibb.co.com/n1GRXhD/Skysport-shareext.png" group-title="Sports",SKY SPORTS BUNDESLIGA
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:149.0) Gecko/20100101 Firefox/149.0
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=d8d5823d92a9ef9306a4cc4bd634b4b4:df9fbdaa0ef9e905b75f4692f213af19
+https://nog-live1-ott.izzigo.tv/15/out/u/dash/SKY-SPORTS-24-HD/default.mpd
+
+#EXTINF:-1 group-title="Sports" tvg-logo="https://i.ibb.co.com/BCHXWWH/Shareext-champion-league.jpg",Premiere Sports 1
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=1444f4235529f183f0a5a486befe9cdb:e5e3fec67a1bb3472a2089c8a0a2557f
+https://otte.live.fly.ww.aiv-cdn.net/gru-nitro/live/clients/dash/enc/m6sqanvm2m/out/v1/f6beb46c6e9a4132ad739f3ca27df6aa/cenc.mpd
+
+#EXTINF:-1 group-title="Sports" tvg-logo="https://i.ibb.co.com/BCHXWWH/Shareext-champion-league.jpg",Premiere Sports 2
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=1a5df53609ebc9857898c490f4724918:77f62980d582ec541280796acf8b2d19
+https://otte.live.fly.ww.aiv-cdn.net/gru-nitro/live/clients/dash/enc/bcj3iscpd6/out/v1/fcd137b391214f7cb99dd4d7be90ca87/cenc.mpd
+
 #EXTINF:-1 group-title="Sports" tvg-logo="https://i.ibb.co.com/BCHXWWH/Shareext-champion-league.jpg",NBA TV
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
