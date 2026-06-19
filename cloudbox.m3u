@@ -109,7 +109,7 @@ https://linearjitp-playback.astro.com.my/dash-wv/linear/1006/default_ott.mpd
 #KODIPROP:inputstream.adaptive.license_key=fe1219019a9f36cdef347088e592ca10:cb9e1a122ed1c6445f7d3fd2162358f1
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 13; Reno 4 Pro Build/PEcU0p; wv) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.1.2758.20 Safari/537.36
 #EXTINF:-1 tvg-id="TVBJADE" tvg-name="TVB Jade" tvg-logo="" group-title="Chinese" tvg-shift="0",马来翡翠台
-https://get.perfecttv.net/dash2.mpd?username=vip_3klp0es8&password=wg3piwEs&channel=tvbjade
+https://linearjitp-playback.astro.com.my/dash-wv/linear/2600/default_ott.mpd
 
 #-----------------------------中文分类(https://github.com/xiaotan8/xiaotan8.github.io/blob/main/mytv.m3u)---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 #------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
