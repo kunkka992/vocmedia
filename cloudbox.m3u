@@ -409,24 +409,28 @@ https://bein-xtra-xumo.amagi.tv/hls/amagi_hls_data_beinAAAAA-bein-xtra-xumoA/CDN
 #KODIPROP:inputstream.adaptive.manifest_type=dash 
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
 #KODIPROP:inputstream.adaptive.license_key=efda647dad723563b625be8c05ee6110:6776985938b332164b97b81fe566a34a
-#EXTINF:-1 tvg-id="801.astro" tvg-logo="https://linear-poster.astro.com.my/prod/logo/AstroArena_2024.png" group-title="Sports",Astro Arena
+#EXTINF:-1 tvg-id="801.astro" tvg-logo="https://linear-poster.astro.com.my/prod/logo/AstroArena_2024.png" group-title="Sports",Arena
 https://d32ee6d372f04fd5bd07bc10fad73eca.mediatailor.ap-southeast-1.amazonaws.com/v1/dash/ceb8322ae2e84c32cb0fce196fdc60100025ab50/MT-CH22-dash/default_primary.mpd?astro=true
 
-#EXTINF:-1 group-logo="" group-title="Sports" tvg-id="Badminton" tvg-logo="https://get.perfecttv.net/logo/badminton.png" group-logo="",Astro Badminton
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=dash
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
-#KODIPROP:inputstream.adaptive.license_key=0bbb23a5ad81427fa6817864b2383402:81e055a8d6ddf6392ae9033f0f037b98
-https://load.perfecttv.net/rwt.m3u8?username=vip_3klp0es8&password=wg3piwEs&channel=badminton
+#KODIPROP:inputstream.adaptive.license_key=6ff0e040d544ec3f02243865990f0c10:83728b47019abdbb37aa36ed5f2951bd
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; U; Android 12 Build/KTR982) AppleWebKit/537.36 (KHTML, like Gecko) like Chrome/39.0.2171.93 Safari/537.36
+#EXTINF:-1 group-logo="" group-title="SPORTS FHD" tvg-id="Badminton" tvg-logo="https://get.perfecttv.net/logo/badminton.png" group-logo="",Badminton
+https://linears2-playback.astro.com.my/vsg/41Nbic_V6Dg28fK_QmIlRpbr4a4LeizDc3SjPb41JDuwA=azoe/dash-wv/jitp-linearwm/5170/default_ott.mpd
 
 #-------------------------badminton2(https://github.com/imanawesome2010/MuZu/blob/main/index.html)----------------------------------------------------------------------------------------------------------------------------------
 #-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-#KODIPROP:inputstreamaddon=inputstream.adaptive 
+#KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=dash
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
-#KODIPROP:inputstream.adaptive.license_key={ "keys":[ { "kty":"oct", "k":"F8Ga1nClV+aIJBnWkj+tJw", "kid":"cq1uqhkEVAE4SH//o61lEA" } ], "type":"temporary" }
-#EXTINF:-1 tvg-id="Astro Grandstand" tvg-logo="http://linear-poster.astro.com.my/prod/logo/AstroGrandstand_2024.png" group-title="Sports",Astro Grandstand
-https://linearjitp-playback.astro.com.my/dash-wv/linear/5172/default_ott.mpd
+#KODIPROP:inputstream.adaptive.license_key=5be66a6f88efee3d6e30f72a9c58e310:168f3fadfc730ba3dfc932f7c430e27d
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 13; Reno 4 Pro Build/PEcU0p; wv) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.1.2758.20 Safari/537.36
+#EXTINF:-1 group-logo="" group-title="SPORTS FHD" tvg-id="Badminton" tvg-logo="https://get.perfecttv.net/logo/badminton.png" group-logo="",granstand
+https://linears2-playback.astro.com.my/vsg/41dpjI3gECguwRfOTrkeVI3glmsRMV-eG5MUKJvmXWgeQ=vUcQ/dash-wv/jitp-linearwm/2701/default_ott.mpd
 
-#EXTINF:-1 group-logo="" group-title="Sports" tvg-id="sportplus" tvg-logo="https://get.perfecttv.net/logo/sportplus.png" group-logo="",Astro Sports Plus
+#EXTINF:-1 group-logo="" group-title="Sports" tvg-id="sportplus" tvg-logo="https://get.perfecttv.net/logo/sportplus.png" group-logo="",Sports Plus
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
 ##KODIPROP:inputstream.adaptive.license_key=e676c88f5cc74beebed5f6fb6406c23c:7091db9a73ccea572d2b7b4461f0c8e5
 #KODIPROP:inputstream.adaptive.license_key=81352bc47ec1177b321ee65ac1be7f10:c8b886142005d7e5067c8717777eaac4
@@ -434,11 +438,11 @@ https://linearjitp-playback.astro.com.my/dash-wv/linear/5172/default_ott.mpd
 ##https://load.perfecttv.net/rwt.m3u8?username=vip_3klp0es8&password=wg3piwEs&channel=sportplushd
 https://linearjitp-playback.astro.com.my/dash-wv/dashiso/5171/default_primary.mpd
 
-#EXTINF:-1 tvg-id="" tvg-name="" group-title="Sports" tvg-logo="https://get.perfecttv.net/logo/cricketfhd.png",Astro Cricket
-#KODIPROP:inputstreamaddon=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=dash
-#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
-#KODIPROP:inputstream.adaptive.license_key=03c2e0af2f8159f9f0ce9b5dbc865f10:cd84ed136b0cc71f8ab8cd4d4f6a2e4c
+#EXTINF:-1 tvg-id="AstroCricket" group-title="Sports" ch-number="824" tvg-logo="https://divign0fdw3sv.cloudfront.net/Images/ChannelLogo/contenthub/197_144.png",832-  Cricket
+#EXTATTRFROMURL:https://viplink.biz/UA/bobos.m3u?go-id=AstroCricket
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key={ "keys":[ { "kty":"oct", "k":"zYTtE2sMxx+KuM1NT2ouTA", "kid":"A8Lgry+BWfnwzptdvIZfEA" } ], "type":"temporary" }
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; U; Android 12 Build/KTR982) AppleWebKit/537.36 (KHTML, like Gecko) like Chrome/39.0.2171.93 Safari/537.36
 https://linearjitp-playback.astro.com.my/dash-wv/linear/2504/default_primary.mpd?token=34892mndsf3h.mpd
 
 #-------------------------FUBO&EUROSPORTS(https://github.com/shareext-reborn/Shareext-UpdateFilesSports.m3u/blob/main/Shareext%40playlist)----------------------------------------------------------------------------------------------------------------------------------
