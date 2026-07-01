@@ -626,7 +626,7 @@ http://89.187.179.148:826/anto.j/c9yJDcXyPe/120265
 #EXTINF:-1 group-title="World Cup" tvg-url="" tvg-logo="https://raw.githubusercontent.com/eepunx/logo/refs/heads/main/fifa-world-cup-2026-fifa.gif",Fussball
 https://raw.githubusercontent.com/hnnyo/lgi/refs/heads/main/fsb1hd.m3u8
 
-#EXTINF:-1 group-title="World Cup" tvg-logo="",FS1
+#EXTINF:-1 group-title="World Cup" tvg-logo="http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s82541_dark_360w_270h.png",FS1
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=5466ebd70704bdeb657f0abf3c5ca4ef:bdd79b72d8e48ed483aa623cc38a8a16
