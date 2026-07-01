@@ -166,16 +166,16 @@ https://php.946985.filegear-sg.me/mytv265.php?id=CMAM
 #KODIPROP:inputstream.adaptive.license_key={ "keys":[ { "kty":"oct", "k":"hCVpDEhE+7AbXq5wa8L3xg", "kid":"2xozj3HUAYb1mXywhbs/EA" } ], "type":"temporary" }
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; U; Android 12 Build/KTR982) AppleWebKit/537.36 (KHTML, like Gecko) like Chrome/39.0.2171.93 Safari/537.36
 http://linearjitp-playback.astro.com.my/dash-wv/linear/403/default_ott.mpd?channel=cctv4
-#EXTINF:-1 group-title="Chinese",鳳凰中文台
+#EXTINF:-1 tvg-id="PhoenixChineseChannel" ch-number="325" group-title="Chinese" group-logo="",凤凰中文台
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key={ "keys":[ { "kty":"oct", "k":"/Wvhzqn6I8mPIPGyq8ridg", "kid":"UXwwjvZBmxdn6a5xDIl3EA" } ], "type":"temporary" }
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; U; Android 12 Build/KTR982) AppleWebKit/537.36 (KHTML, like Gecko) like Chrome/39.0.2171.93 Safari/537.36
-http://linearjitp-playback.astro.com.my/dash-wv/linear/400/default_ott.mpd?channel=phoenix
-#EXTINF:-1 group-title="Chinese",鳳凰资讯台
+https://linearjitp-playback.astro.com.my/dash-wv/linear/400/default_primary.mpd?token=34892mndsf3h.mpd
+#EXTINF:-1 tvg-id="PhoenixChineseChannel" ch-number="325" group-title="Chinese" group-logo="",凤凰资讯台
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key={ "keys":[ { "kty":"oct", "k":"/Wvhzqn6I8mPIPGyq8ridg", "kid":"UXwwjvZBmxdn6a5xDIl3EA" } ], "type":"temporary" }
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; U; Android 12 Build/KTR982) AppleWebKit/537.36 (KHTML, like Gecko) like Chrome/39.0.2171.93 Safari/537.36
-http://linearjitp-playback.astro.com.my/dash-wv/linear/400/default_ott.mpd?channel=phoenix
+https://linearjitp-playback.astro.com.my/dash-wv/linear/400/default_primary.mpd?token=34892mndsf3h.mpd
 #EXTINF:-1 group-title="Chinese",鳳凰香港台
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=dash
