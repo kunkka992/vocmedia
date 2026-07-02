@@ -77,13 +77,11 @@ https://tglmp01.akamaized.net/out/v1/8605c1013e3148aa809c296dd76c3fa5/manifest.m
 #-----------------------------中文分类(https://php.946985.filegear-sg.me/jackTV.m3u)---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 #-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-#KODIPROP:inputstreamaddon=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=dash
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=06282157da4e8f97623a70ed017fad10:8da72ca8501a4deb4bfc381fe1737ef4
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 13; Reno 4 Pro Build/PEcU0p; wv) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.1.2758.20 Safari/537.36
-#EXTINF:-1 tvg-id="AEC" tvg-name="AEC" tvg-logo="" group-title="Chinese" tvg-shift="0",AEC(字幕和语言)
-https://linearjitp-playback.astro.com.my/dash-wv/linear/2400/default_ott.mpd
+#EXTINF:-1 tvg-id="AEC" tvg-name="AEC" tvg-logo="" group-title="Chinese" tvg-shift="0",AEC
+http://iptv12k.com:35461/live/m260622261031568/111111/13371.ts
+http://iptv12k.com:35461/live/m260622261031568/111111/13597.ts
+http://iptv12k.com:35461/live/m260622261031568/111111/4341.ts
+http://iptv12k.com:35461/live/m260622261031568/111111/709.ts
 
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=dash
