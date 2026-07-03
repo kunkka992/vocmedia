@@ -594,28 +594,13 @@ https://dtqutq7lmcchv.cloudfront.net/10001/99991317/hls/playlist.m3u8?ads.xumo_c
 #--------------------------------下面这些(perfect tv)-------------------------------------------------------------------------------------------------------------------------------
 #-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 #EXTINF:-1 tvg-id="fifa1" tvg-name="" group-title="World Cup" group-logo="" tvg-logo="https://image-resizer-cloud-cdn.api.tmcms.quickplay.com/image/9E7BD4A4-E920-4556-9C44-0A243C5024C7/0-16x9.jpg?width=100&updatedTime=undefined&dt=Web", 696 Unifi FIFA1
-#KODIPROP:inputstreamaddon=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=dash
-#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
-#KODIPROP:inputstream.adaptive.license_key=10e2114398744f3880cc96653568da55:d6d40441f9fbebea03ec64c4aea7211f
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36
-https://get.perfecttv.net/fifawc.mpd?username=vip_3klp0es8&password=wg3piwEs&channel=fifa1&kid=10e21143-9874-4f38-80cc-96653568da55
+http://iptv12k.com:35461/live/m260622261031568/111111/10073.ts
 
 #EXTINF:-1 tvg-id="fifa2" tvg-name="" group-title="World Cup" group-logo="" tvg-logo="https://image-resizer-cloud-cdn.api.tmcms.quickplay.com/image/05793DF0-B2E9-4447-B7C6-DE8ADCB5EA24/0-16x9.jpg?width=176&updatedTime=undefined&dt=Web", 697 Unifi FIFA2
-#KODIPROP:inputstreamaddon=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=dash
-#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
-#KODIPROP:inputstream.adaptive.license_key=60a3773de4054a9680d6ca2277870a97:0ed58cdb97aaa8efba47b865ea7e8958
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36
-https://get.perfecttv.net/fifawc2.mpd?username=vip_3klp0es8&password=wg3piwEs&channel=fifa2&kid=60a3773d-e405-4a96-80d6-ca2277870a97
+http://iptv12k.com:35461/live/m260622261031568/111111/10072.ts
 
 #EXTINF:-1 tvg-id="fifa3" tvg-name="" group-title="World Cup" group-logo="" tvg-logo="https://image-resizer-cloud-cdn.api.tmcms.quickplay.com/image/6F6D4C8B-DE5E-41AF-BCA9-3EF630205F40/0-16x9.jpg?width=176&updatedTime=undefined&dt=Web", 698 Unifi FIFA3
-#KODIPROP:inputstreamaddon=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=dash
-#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
-#KODIPROP:inputstream.adaptive.license_key=f88c0e6ef2de4f92b7ce07e50cb2d937:7aff86770a0f0ac16b91a372e148a8bd
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36
-https://get.perfecttv.net/fifawc3.mpd?username=vip_3klp0es8&password=wg3piwEs&channel=fifa3&kid=f88c0e6e-f2de-4f92-b7ce-07e50cb2d937
+http://iptv12k.com:35461/live/m260622261031568/111111/10071.ts
 
 #EXTINF:-1 tvg-id="BBC.One.EastHD.uk" tvg-name="BBC One UK" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-kingdom/bbc-one-uk.png?raw=true" group-title="World Cup",BBC One UK
 http://89.187.179.148:826/anto.j/c9yJDcXyPe/120265
