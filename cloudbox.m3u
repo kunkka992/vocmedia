@@ -87,7 +87,7 @@ https://live.cboxpro.top/r/aecmpd.mpd
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; U; Android 12 Build/KTR982) AppleWebKit/537.36 (KHTML, like Gecko) like Chrome/39.4154042468 Safari/537.36
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=89de71cf39be0946dec828edff84d010:9d5e036094bb77cbaf8867d3272c66d0
-http://redirect.mobileads.cloud/apsod99asd.mpd?id=2507&provider=mytech&token=WlJBAgMLAAYCXA
+https://live.cboxpro.top/r/quanjia.mpd
 
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=dash
