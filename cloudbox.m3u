@@ -77,11 +77,17 @@ https://tglmp01.akamaized.net/out/v1/8605c1013e3148aa809c296dd76c3fa5/manifest.m
 #-----------------------------中文分类(https://php.946985.filegear-sg.me/jackTV.m3u)---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 #-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-#EXTINF:-1 tvg-id="AEC" tvg-name="AEC" tvg-logo="" group-title="Chinese" tvg-shift="0",AEC
-http://iptv12k.com:35461/live/m260622261031568/111111/13371.ts
-http://iptv12k.com:35461/live/m260622261031568/111111/13597.ts
-http://iptv12k.com:35461/live/m260622261031568/111111/4341.ts
-http://iptv12k.com:35461/live/m260622261031568/111111/709.ts
+#EXTINF:-1 tvg-id="AstroAEC" ch-number="306" group-title="Chinese" group-logo="", AEC
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; U; Android 12 Build/KTR982) AppleWebKit/537.36 (KHTML, like Gecko) like Chrome/39.4154042468 Safari/537.36
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=06282157da4e8f97623a70ed017fad10:8da72ca8501a4deb4bfc381fe1737ef4
+http://redirect.mobileads.cloud/apsod99asd.mpd?id=2400&provider=mytech&token=WlJBAgMLAAYCXA
+
+#EXTINF:-1 tvg-id="308.astro" ch-number="306" group-title="Chinese" group-logo="", Quan Jia
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; U; Android 12 Build/KTR982) AppleWebKit/537.36 (KHTML, like Gecko) like Chrome/39.4154042468 Safari/537.36
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=89de71cf39be0946dec828edff84d010:9d5e036094bb77cbaf8867d3272c66d0
+http://redirect.mobileads.cloud/apsod99asd.mpd?id=2507&provider=mytech&token=WlJBAgMLAAYCXA
 
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=dash
