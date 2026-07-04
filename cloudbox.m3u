@@ -605,7 +605,7 @@ https://dtqutq7lmcchv.cloudfront.net/10001/99991317/hls/playlist.m3u8?ads.xumo_c
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; U; Android 12 Build/KTR982) AppleWebKit/537.36 (KHTML, like Gecko) like Chrome/39.4154042468 Safari/537.36
 ##EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 #EXTHTTP:{"Origin": "https://unifi.com.my//", "Referer": "https://unifi.com.my/"}
-http://redirect.mobileads.cloud/redirect_token/ayuni5fifa.mpd?id=fifa1&provider=mytech
+https://live.cboxpro.top/r/unifi1.mpd
 
 #EXTINF:-1 tvg-id="fifa2" tvg-name="" group-title="World Cup" group-logo="" tvg-logo="https://image-resizer-cloud-cdn.api.tmcms.quickplay.com/image/05793DF0-B2E9-4447-B7C6-DE8ADCB5EA24/0-16x9.jpg?width=176&updatedTime=undefined&dt=Web", 697 Unifi FIFA2
 #KODIPROP:inputstream.adaptive.license_type=clearkey
@@ -613,7 +613,7 @@ http://redirect.mobileads.cloud/redirect_token/ayuni5fifa.mpd?id=fifa1&provider=
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; U; Android 12 Build/KTR982) AppleWebKit/537.36 (KHTML, like Gecko) like Chrome/39.4154042468 Safari/537.36
 ##EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 #EXTHTTP:{"Origin": "https://unifi.com.my//", "Referer": "https://unifi.com.my/"}
-http://redirect.mobileads.cloud/redirect_token/ayuni5fifa.mpd?id=fifa2&provider=mytech
+https://live.cboxpro.top/r/unifi2.mpd
 
 #EXTINF:-1 tvg-id="fifa3" tvg-name="" group-title="World Cup" group-logo="" tvg-logo="https://image-resizer-cloud-cdn.api.tmcms.quickplay.com/image/6F6D4C8B-DE5E-41AF-BCA9-3EF630205F40/0-16x9.jpg?width=176&updatedTime=undefined&dt=Web", 698 Unifi FIFA3
 #KODIPROP:inputstream.adaptive.license_type=clearkey
@@ -621,7 +621,7 @@ http://redirect.mobileads.cloud/redirect_token/ayuni5fifa.mpd?id=fifa2&provider=
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; U; Android 12 Build/KTR982) AppleWebKit/537.36 (KHTML, like Gecko) like Chrome/39.4154042468 Safari/537.36
 ##EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 ##EXTHTTP:{"Origin": "https://unifi.com.my//", "Referer": "https://unifi.com.my/"}
-http://redirect.mobileads.cloud/redirect_token/ayuni5fifa.mpd?id=fifa3&provider=mytech
+https://live.cboxpro.top/r/unifi3.mpd
 
 #EXTINF:-1 tvg-id="rtmsukan" tvg-name="" group-title="World Cup" group-logo="" tvg-logo="https://get.perfecttv.net/logo/sukanrtm.png", 700 RTM Sukan
 #KODIPROP:inputstreamaddon=inputstream.adaptive
