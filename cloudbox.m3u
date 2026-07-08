@@ -236,6 +236,15 @@ https://php.946985.filegear-sg.me/mytv265.php?id=CWIN
 #KODIPROP:inputstream.adaptive.license_key=72de7d0a1850c8d40c5bdf9747a4ca7c:4967537ff0bc8209277160759de4adef
 https://php.946985.filegear-sg.me/mytv265.php?id=C18
 
+#-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+#EXTINF:-1 tvg-id="AEC" tvg-name="AEC" tvg-logo="" group-title="AEC" tvg-shift="0",AEC(备用1)
+http://iptv12k.com:35461/live/m260622261031568/111111/13371.ts
+#EXTINF:-1 tvg-id="AEC" tvg-name="AEC" tvg-logo="" group-title="AEC" tvg-shift="0",AEC(备用2)
+http://iptv12k.com:35461/live/m260622261031568/111111/13597.ts
+#EXTINF:-1 tvg-id="AEC" tvg-name="AEC" tvg-logo="" group-title="AEC" tvg-shift="0",AEC(备用3)
+http://iptv12k.com:35461/live/m260622261031568/111111/4341.ts
+#EXTINF:-1 tvg-id="AEC" tvg-name="AEC" tvg-logo="" group-title="AEC" tvg-shift="0",AEC(备用4)
+http://iptv12k.com:35461/live/m260622261031568/111111/709.ts
 
 #--------------------------电影分类(https://github.com/alantang1977/X/blob/main/X.json)-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 #-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -247,15 +256,6 @@ http://38.75.136.137:98/gslb/dsdqpub/chcdz.m3u8?auth=testpub
 http://38.75.136.137:98/gslb/dsdqpub/chchd.m3u8?auth=testpub
 #EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/邵氏电影.png" group-title="Movie Channel",邵氏电影
 http://38.75.136.137:98/gslb/dsdqpub/lbssdy.m3u8?auth=testpub
-
-#EXTINF:-1 tvg-id="AEC" tvg-name="AEC" tvg-logo="" group-title="AEC" tvg-shift="0",AEC(备用1)
-http://iptv12k.com:35461/live/m260622261031568/111111/13371.ts
-#EXTINF:-1 tvg-id="AEC" tvg-name="AEC" tvg-logo="" group-title="AEC" tvg-shift="0",AEC(备用2)
-http://iptv12k.com:35461/live/m260622261031568/111111/13597.ts
-#EXTINF:-1 tvg-id="AEC" tvg-name="AEC" tvg-logo="" group-title="AEC" tvg-shift="0",AEC(备用3)
-http://iptv12k.com:35461/live/m260622261031568/111111/4341.ts
-#EXTINF:-1 tvg-id="AEC" tvg-name="AEC" tvg-logo="" group-title="AEC" tvg-shift="0",AEC(备用4)
-http://iptv12k.com:35461/live/m260622261031568/111111/709.ts
 
 #-----------------------------电影分类(https://github.com/xiaotan8/xiaotan8.github.io/blob/main/mytv.m3u)---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 #------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
