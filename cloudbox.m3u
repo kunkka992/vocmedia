@@ -76,6 +76,16 @@ https://tglmp04.akamaized.net/out/v1/0ba219dbd030477784e4a8104bd9e827/manifest.m
 https://tglmp01.akamaized.net/out/v1/8605c1013e3148aa809c296dd76c3fa5/manifest.mpd
 
 #-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+#EXTINF:-1 tvg-id="8TV" tvg-name="8TV" tvg-logo="" group-title="8TV" tvg-shift="0",8TV(备用1)
+http://iptv12k.com:35461/live/m260622261031568/111111/738.ts
+#EXTINF:-1 tvg-id="8TV" tvg-name="8TV" tvg-logo="" group-title="8TV" tvg-shift="0",8TV(备用2)
+http://iptv12k.com:35461/live/m260622261031568/111111/10992.ts
+#EXTINF:-1 tvg-id="8TV" tvg-name="8TV" tvg-logo="" group-title="8TV" tvg-shift="0",8TV(备用3)
+http://iptv12k.com:35461/live/m260622261031568/111111/19800.ts
+#EXTINF:-1 tvg-id="8TV" tvg-name="8TV" tvg-logo="" group-title="8TV" tvg-shift="0",8TV(备用4)
+http://iptv12k.com:35461/live/m260622261031568/111111/13640.ts
+
+#-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 #EXTINF:-1 tvg-id="AEC" tvg-name="AEC" tvg-logo="" group-title="AEC" tvg-shift="0",AEC(备用1)
 http://iptv12k.com:35461/live/m260622261031568/111111/13371.ts
 #EXTINF:-1 tvg-id="AEC" tvg-name="AEC" tvg-logo="" group-title="AEC" tvg-shift="0",AEC(备用2)
