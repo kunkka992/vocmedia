@@ -437,11 +437,11 @@ https://live.cboxpro.top/r/815-badminton1.mpd
 #-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 #EXTINF:-1 group-logo="" group-title="Sports" tvg-id="Badminton" tvg-logo="https://get.perfecttv.net/logo/badminton.png" group-logo="",granstand
-http://iptv12k.com:35461/live/m260622261031568/111111/7986.ts
-http://iptv12k.com:35461/live/m260622261031568/111111/7985.ts
-http://iptv12k.com:35461/live/m260622261031568/111111/5221.ts
-http://iptv12k.com:35461/live/m260622261031568/111111/5220.ts
-http://iptv12k.com:35461/live/m260622261031568/111111/970.ts
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; U; Android 12 Build/KTR982) AppleWebKit/537.36 (KHTML, like Gecko) like Chrome/39.4154042468 Safari/537.36
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=
+#KODIPROP:inputstream.adaptive.license_key={ "keys":[ { "kty":"oct", "k":"Fo8/rfxzC6PfyTL3xDDifQ", "kid":"W+Zqb4jv7j1uMPcqnFjjEA" } ], "type":"temporary" }
+https://live.cboxpro.top/r/810-grandstand.mpd
 
 #EXTINF:-1 group-logo="" group-title="Sports" tvg-id="sportplus" tvg-logo="https://get.perfecttv.net/logo/sportplus.png" group-logo="",Sports Plus
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
