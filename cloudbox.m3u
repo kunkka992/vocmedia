@@ -428,11 +428,10 @@ https://bein-xtra-xumo.amagi.tv/hls/amagi_hls_data_beinAAAAA-bein-xtra-xumoA/CDN
 https://d32ee6d372f04fd5bd07bc10fad73eca.mediatailor.ap-southeast-1.amazonaws.com/v1/dash/ceb8322ae2e84c32cb0fce196fdc60100025ab50/MT-CH22-dash/default_primary.mpd?astro=true
 
 #EXTINF:-1 group-logo="" group-title="Sports" tvg-id="Badminton" tvg-logo="https://get.perfecttv.net/logo/badminton.png" group-logo="",Badminton
-http://iptv12k.com:35461/live/m260622261031568/111111/51603.ts
-http://iptv12k.com:35461/live/m260622261031568/111111/43913.ts
-http://iptv12k.com:35461/live/m260622261031568/111111/43912.ts
-http://iptv12k.com:35461/live/m260622261031568/111111/43906.ts
-http://iptv12k.com:35461/live/m260622261031568/111111/43905.ts
+#KODIPROP:inputstream.adaptive.license_key=6ff0e040d544ec3f02243865990f0c10:83728b47019abdbb37aa36ed5f2951bd
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; U; Android 12 Build/KTR982) AppleWebKit/537.36 (KHTML, like Gecko) like Chrome/39.4154042468 Safari/537.36
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+https://live.cboxpro.top/r/815-badminton1
 
 #-------------------------badminton2(https://github.com/imanawesome2010/MuZu/blob/main/index.html)----------------------------------------------------------------------------------------------------------------------------------
 #-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
