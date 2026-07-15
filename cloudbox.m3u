@@ -347,18 +347,18 @@ https://live.cboxpro.top/r/dreamworks.mpd
 https://live.cboxpro.top/r/moonbugkids.mpd
 
 #EXTINF:-1 group-title="KIDS" tvg-id="NICKELODEON" tvg-logo="https://image-resizer-cloud-cdn.api.tmcms.quickplay.com/image/B0F89221-2AF9-493C-B1FD-3169136100C2/0-16x9.png?width=160&amp;updatedTime=0&amp;dt=Web",NICKELODEON
-#KODIPROP:inputstreamaddon=inputstream.adaptive
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; U; Android 12 Build/KTR982) AppleWebKit/537.36 (KHTML, like Gecko) like Chrome/39.3438006815 Safari/537.36
 #KODIPROP:inputstream.adaptive.manifest_type=dash
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
 #KODIPROP:inputstream.adaptive.license_key=9b10e787fac84ff484c8c7d7f7668925:7d7d3793e4489f6ebc50d002e4bdbd44
-https://ngtv-live-cbj.gcdn.co/Content/DASH/Live/channel(Nickelodeon)/master.mpd?kid=9b10e787-fac8-4ff4-84c8-c7d7f7668925
+https://live.cboxpro.top/r/nickelodeon.mpd
 
 #EXTINF:-1 group-title="KIDS" tvg-id="NICKJR" tvg-logo="https://image-resizer-cloud-cdn.api.tmcms.quickplay.com/image/27A246D6-BEAD-43F8-89AE-12FB781954FD/0-16x9.png?width=160&amp;updatedTime=0&amp;dt=Web",NICKJR
-#KODIPROP:inputstreamaddon=inputstream.adaptive
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; U; Android 12 Build/KTR982) AppleWebKit/537.36 (KHTML, like Gecko) like Chrome/39.3438006815 Safari/537.36
 #KODIPROP:inputstream.adaptive.manifest_type=dash
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
 #KODIPROP:inputstream.adaptive.license_key=fe60385da93e48cda9dce2c686862462:8e7c6f6beb074f153da1b00c3cf95908
-https://ngtv-live-cbj.gcdn.co/Content/DASH/Live/channel(Nickjr)/master.mpd?kid=fe60385d-a93e-48cd-a9dc-e2c686862462
+https://live.cboxpro.top/r/nickjr.mpd
 
 #EXTINF:-1 group-title="KIDS" tvg-id="PBSKids.mv" tvg-name="PBS Kids" tvg-logo="https://8upload.com/image/681f471c5ef06/pbskidshilay.png",PBS KIDS
 https://2-fss-2.streamhoster.com/pl_140/amlst:200914-1298290/playlist.m3u8
