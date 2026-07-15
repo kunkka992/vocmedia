@@ -312,18 +312,18 @@ https://amg01314-amg01314c8-distrotv-us-10218.playouts.now.amagi.tv/playlist/amg
 #--------------------------kid分类(https://github.com/alantang1977/X/blob/main/X.json)-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 #-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 #EXTINF:-1 group-title="KIDS" tvg-id="CARTOON NETWORK" tvg-logo="https://image-resizer-cloud-cdn.api.tmcms.quickplay.com/image/19A98713-0CA9-4509-BDA3-AA652B2329A3/0-16x9.png?width=160&amp;updatedTime=0&amp;dt=Web",CARTOON NETWORK
-#KODIPROP:inputstreamaddon=inputstream.adaptive
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; U; Android 12 Build/KTR982) AppleWebKit/537.36 (KHTML, like Gecko) like Chrome/39.3438006815 Safari/537.36
 #KODIPROP:inputstream.adaptive.manifest_type=dash
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
 #KODIPROP:inputstream.adaptive.license_key=2da2675c6da34253b376318ef350cf19:688c0015a6b4863f0663f25f42036800
-https://ngtv-live-cbj.gcdn.co/Content/DASH/Live/channel(CartoonNet)/master.mpd?kid=2da2675c-6da3-4253-b376-318ef350cf19
+https://live.cboxpro.top/r/cartoonnetwork.mpd
 
 #EXTINF:-1 group-title="KIDS" tvg-id="CBEEBIES" tvg-logo="https://github.com/fatguy666/Sky-TV-Icons-2020/blob/master/CBeebies.png",CBEEBIES
-#KODIPROP:inputstreamaddon=inputstream.adaptive
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; U; Android 12 Build/KTR982) AppleWebKit/537.36 (KHTML, like Gecko) like Chrome/39.3438006815 Safari/537.36
 #KODIPROP:inputstream.adaptive.manifest_type=dash
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
-#KODIPROP:inputstream.adaptive.license_key=fe60385da93e48cda9dce2c686862462:8e7c6f6beb074f153da1b00c3cf95908
-https://ngtv-live-cbj.gcdn.co/Content/DASH/Live/channel(Nickjr)/master.mpd?kid=fe60385d-a93e-48cd-a9dc-e2c686862462 
+#KODIPROP:inputstream.adaptive.license_key=cc5bdbd024fe456ba6613471e4931041:d48c61044cef51adb33bf6999f23e967
+https://live.cboxpro.top/r/cbeebies 
 
 #EXTINF:-1 group-title="KIDS" tvg-id="" tvg-logo="http://apkip.tv/logos/Canada/DisneyChannel.ca.png",Disney Channel
 #KODIPROP:inputstream.adaptive.manifest_type=dash
@@ -332,18 +332,19 @@ https://ngtv-live-cbj.gcdn.co/Content/DASH/Live/channel(Nickjr)/master.mpd?kid=f
 https://a77aivottepl-a.akamaihd.net/pdx-nitro/live/clients/dash/enc/zuf794yutz/out/v1/ca3534bfe4f148298b36719204d108e0/cenc.mpd
 
 #EXTINF:-1 group-title="KIDS" tvg-id="DREAMWORKS" tvg-logo="https://image-resizer-cloud-cdn.api.tmcms.quickplay.com/image/C80E3DCC-64D5-4447-991B-E2E2998E6DEF/0-16x9.png?width=160&amp;updatedTime=0&amp;dt=Web",DREAMWORKS
-#KODIPROP:inputstreamaddon=inputstream.adaptive
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; U; Android 12 Build/KTR982) AppleWebKit/537.36 (KHTML, like Gecko) like Chrome/39.3438006815 Safari/537.36
 #KODIPROP:inputstream.adaptive.manifest_type=dash
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; U; Android 12 Build/KTR982) AppleWebKit/537.36 (KHTML, like Gecko) like Chrome/39.3438006815 Safari/537.36
 #KODIPROP:inputstream.adaptive.license_key=e8ce35ed8bc34772abedd63383aa11b7:1d2d76741e825e5c7babf597374b016e
-https://ngtv-live-cbj.gcdn.co/Content/DASH/Live/channel(Dreamworks)/master.mpd?kid=e8ce35ed-8bc3-4772-abed-d63383aa11b7
+https://live.cboxpro.top/r/dreamworks.mpd
 
 #EXTINF:-1 group-title="KIDS" tvg-id="MOONBUG" tvg-logo="https://image-resizer-cloud-cdn.api.tmcms.quickplay.com/image/8E7404EF-65F4-491A-8498-7BA94D15D28A/0-16x9.png?width=160&amp;updatedTime=0&amp;dt=Web",MOONBUG
-#KODIPROP:inputstreamaddon=inputstream.adaptive
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; U; Android 12 Build/KTR982) AppleWebKit/537.36 (KHTML, like Gecko) like Chrome/39.3438006815 Safari/537.36
 #KODIPROP:inputstream.adaptive.manifest_type=dash
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
 #KODIPROP:inputstream.adaptive.license_key=c3189457b38b4ed9888c5a2e763f0ab8:d4dc62e11dd1856ed4f9a26d44271d0b
-https://ngtv-live-cbj.gcdn.co/Content/DASH/Live/channel(Moonbug)/master.mpd?kid=c3189457-b38b-4ed9-888c-5a2e763f0ab8
+https://live.cboxpro.top/r/moonbugkids.mpd
 
 #EXTINF:-1 group-title="KIDS" tvg-id="NICKELODEON" tvg-logo="https://image-resizer-cloud-cdn.api.tmcms.quickplay.com/image/B0F89221-2AF9-493C-B1FD-3169136100C2/0-16x9.png?width=160&amp;updatedTime=0&amp;dt=Web",NICKELODEON
 #KODIPROP:inputstreamaddon=inputstream.adaptive
