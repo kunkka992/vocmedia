@@ -271,11 +271,11 @@ https://php.946985.filegear-sg.me/mytv265.php?id=CKIX
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=002d034731b6ac938ea7ba85bc3dc759:6694258c023d73492a10acb860bc6161
 https://php.946985.filegear-sg.me/mytv265.php?id=CRTE
-#EXTINF:-1 tvg-id="AXN" tvg-name="AXN" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/AXN.png" group-title="Movie Channel",AXN
+#EXTINF:-1 tvg-id="Thrill" tvg-name="AXN" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/AXN.png" group-title="Movie Channel",Thrill
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=20bea0e14af0d3dcb63d4126e8b50172:07382de357a2b0cceabe82e0b37cb8de
-https://php.946985.filegear-sg.me/mytv265.php?id=CAXN
+#KODIPROP:inputstream.adaptive.license_key=b22355363ab2b09a6def54be0c89b9f2:4b196c2bf24b37e82a81031246de6efe
+https://php.946985.filegear-sg.me/mytv265.php?id=CTHR
 #EXTINF:-1 tvg-id="tvN-HK" tvg-name="TVN" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/TVN.png" group-title="Movie Channel",tvN
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
