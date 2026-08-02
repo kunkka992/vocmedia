@@ -43,6 +43,9 @@ https://live.mana2.my/Tv6/tracks-v1a1/mono.m3u8?token=1780609409-65fd0bec69fb4c6
 #KODIPROP:inputstream.adaptive.license_key=da1cb24f55db4ae1b32319c365920539:721af66b9c3e8c4166b8b4586d1fbefd
 https://live.cboxpro.top/r/8tv.mpd
 
+#EXTINF:-1 tvg-id="8TV" tvg-name="8TV" group-title="Siaran Tv"  tvg-logo="https://get.perfecttv.net/logo/8tv.png",8TV 八度空间 (备用)
+https://cdn.qd.je/163189/8tv
+
 #----------------------------siaran tv分类(perfecttv)---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 #---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 #EXTINF:-1 group-title="Siaran Tv" tvg-id="Okey" tvg-name="Okey" tvg-logo="https://raw.githubusercontent.com/FreemediaMY/FreemediaMY/main/assets/freewatch/logos/local/RTM_Okey.png", RTM Okey
