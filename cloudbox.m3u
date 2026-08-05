@@ -36,11 +36,9 @@ https://live.mana2.my/Tv6/tracks-v1a1/mono.m3u8?token=1780609409-65fd0bec69fb4c6
 #----------------------------siaran tv分类(perfect tv)---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 #---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 #EXTINF:-1 tvg-id="8TV" tvg-name="8TV" group-title="Siaran Tv"  tvg-logo="https://get.perfecttv.net/logo/8tv.png",8TV 八度空间
-#KODIPROP:inputstreamaddon=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=dash
-#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; U; Android 12 Build/KTR982) AppleWebKit/537.36 (KHTML, like Gecko) like Chrome/39.3438006815 Safari/537.36
+#KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=da1cb24f55db4ae1b32319c365920539:721af66b9c3e8c4166b8b4586d1fbefd
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (SMART-TV; Linux; Tizen 6.0) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/4.0 Chrome/76.0.3809.146 TV Safari/537.36
 https://live.cboxpro.top/r/8tv.mpd
 
 #EXTINF:-1 tvg-id="8TV" tvg-name="8TV" group-title="Siaran Tv"  tvg-logo="https://get.perfecttv.net/logo/8tv.png",8TV 八度空间 (备用)
@@ -62,7 +60,6 @@ https://live.mana2.my/BeritaRtm/tracks-v1a1/mono.m3u8?token=1780609962-a327d1c5b
 
 #----------------------------新加坡分类(https://github.com/alantang1977/X/blob/main/X.json)---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 #---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-
 #EXTINF:-1 group-title="Siaran Tv"  tvg-id="97098" tvg-logo="https://prod98.togglestatic.com/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&ImageId='6318760'&EntityType='Item'&EntityId='97098'&Width=356&Height=250", Channel 5
 http://cdn6.163189.xyz/163189/ch5
 #EXTINF:-1 group-title="Siaran Tv"  tvg-id="97104" tvg-logo="https://prod98.togglestatic.com/shain/v1/dataservice/ResizeImage/$value?Format='png'&Quality=85&ImageId='6318750'&EntityType='Item'&EntityId='97104'&Width=369&Height=250", Channel 8
@@ -85,7 +82,7 @@ https://tglmp01.akamaized.net/out/v1/8605c1013e3148aa809c296dd76c3fa5/manifest.m
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; U; Android 12 Build/KTR982) AppleWebKit/537.36 (KHTML, like Gecko) like Chrome/39.4154042468 Safari/537.36
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=06282157da4e8f97623a70ed017fad10:8da72ca8501a4deb4bfc381fe1737ef4
-https://live.cboxpro.top/r/aec.mpd
+https://live.cboxpro.top/r/306aechd.mpd
 
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=dash
@@ -240,6 +237,7 @@ https://php.946985.filegear-sg.me/mytv265.php?id=CWIN
 #KODIPROP:inputstream.adaptive.license_key=72de7d0a1850c8d40c5bdf9747a4ca7c:4967537ff0bc8209277160759de4adef
 https://php.946985.filegear-sg.me/mytv265.php?id=C18
 
+
 #--------------------------电影分类(https://github.com/alantang1977/X/blob/main/X.json)-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 #-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 #EXTINF:-1 tvg-id="" tvg-name="CHC家庭影院" tvg-logo="https://iptv-pro.github.io/logo/CHC%E5%AE%B6%E5%BA%AD%E5%BD%B1%E9%99%A2.png" group-title="Movie Channel",CHC家庭影院
@@ -326,7 +324,7 @@ https://live.cboxpro.top/r/cartoonnetwork.mpd
 #KODIPROP:inputstream.adaptive.manifest_type=dash
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
 #KODIPROP:inputstream.adaptive.license_key=cc5bdbd024fe456ba6613471e4931041:d48c61044cef51adb33bf6999f23e967
-https://live.cboxpro.top/r/cbeebies 
+https://live.cboxpro.top/r/cbeebieshd.mpd 
 
 #EXTINF:-1 group-title="KIDS" tvg-id="" tvg-logo="http://apkip.tv/logos/Canada/DisneyChannel.ca.png",Disney Channel
 #KODIPROP:inputstream.adaptive.manifest_type=dash
@@ -340,21 +338,20 @@ https://a77aivottepl-a.akamaihd.net/pdx-nitro/live/clients/dash/enc/zuf794yutz/o
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; U; Android 12 Build/KTR982) AppleWebKit/537.36 (KHTML, like Gecko) like Chrome/39.3438006815 Safari/537.36
 #KODIPROP:inputstream.adaptive.license_key=e8ce35ed8bc34772abedd63383aa11b7:1d2d76741e825e5c7babf597374b016e
-https://live.cboxpro.top/r/dreamworks.mpd
+https://live.cboxpro.top/r/dreamworkshd.mpd
 
 #EXTINF:-1 group-title="KIDS" tvg-id="MOONBUG" tvg-logo="https://image-resizer-cloud-cdn.api.tmcms.quickplay.com/image/8E7404EF-65F4-491A-8498-7BA94D15D28A/0-16x9.png?width=160&amp;updatedTime=0&amp;dt=Web",MOONBUG
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; U; Android 12 Build/KTR982) AppleWebKit/537.36 (KHTML, like Gecko) like Chrome/39.3438006815 Safari/537.36
 #KODIPROP:inputstream.adaptive.manifest_type=dash
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
 #KODIPROP:inputstream.adaptive.license_key=c3189457b38b4ed9888c5a2e763f0ab8:d4dc62e11dd1856ed4f9a26d44271d0b
-https://live.cboxpro.top/r/moonbugkids.mpd
+https://live.cboxpro.top/r/moonbug.mpd
 
 #EXTINF:-1 group-title="KIDS" tvg-id="NICKELODEON" tvg-logo="https://image-resizer-cloud-cdn.api.tmcms.quickplay.com/image/B0F89221-2AF9-493C-B1FD-3169136100C2/0-16x9.png?width=160&amp;updatedTime=0&amp;dt=Web",NICKELODEON
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; U; Android 12 Build/KTR982) AppleWebKit/537.36 (KHTML, like Gecko) like Chrome/39.3438006815 Safari/537.36
-#KODIPROP:inputstream.adaptive.manifest_type=dash
-#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
-#KODIPROP:inputstream.adaptive.license_key=9b10e787fac84ff484c8c7d7f7668925:7d7d3793e4489f6ebc50d002e4bdbd44
-https://live.cboxpro.top/r/nickelodeon.mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key={"keys":[{"kty":"oct","k":"vaX3u8HkQJb3eaBhn+mIHw","kid":"2FIOlqEoOrblvlOEdL+oEA"}],"type":"temporary"}
+#EXTVLCOPT:http-user-agent=(Mozilla/5.0 (Android; Android 7.1.1; LG-H900 Build/NRD90C) AppleWebKit/535.26 (KHTML, like Gecko) Chrome/134.0.0.0 Mobile Safari/537.36
+https://live.cboxpro.top/r/616nickelodeonhd.mpd
 
 #EXTINF:-1 group-title="KIDS" tvg-id="NICKJR" tvg-logo="https://image-resizer-cloud-cdn.api.tmcms.quickplay.com/image/27A246D6-BEAD-43F8-89AE-12FB781954FD/0-16x9.png?width=160&amp;updatedTime=0&amp;dt=Web",NICKJR
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; U; Android 12 Build/KTR982) AppleWebKit/537.36 (KHTML, like Gecko) like Chrome/39.3438006815 Safari/537.36
@@ -383,9 +380,8 @@ https://a196aivottlinear-a.akamaihd.net/OTTB/pdx-nitro/live/clients/dash/enc/o7a
 
 #--------------------------------体育分类-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-#------------------------bein sports(https://github.com/shareext-reborn/Shareext-UpdateFilesSports.m3u)--------------------------------------------------------------------------------------------------------------------------------------------------
+#------------------------bein sport(https://github.com/shareext-reborn/Shareext-UpdateFilesSports.m3u)--------------------------------------------------------------------------------------------------------------------------------------------------
 #-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/PuteraPerlis74/SPORT-LOGO/refs/heads/main/Bein%20sports%201.png" group-title="Sports",beIN Sports
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone14,6; U; CPU iPhone OS 15_4 like Mac OS X) AppleWebKit/602.1.50 (KHTML, like Gecko) Version/10.0 Mobile/19E241 Safari/602.1
 #KODIPROP:inputstreamaddon=inputstream.adaptive
@@ -426,17 +422,16 @@ https://d32ee6d372f04fd5bd07bc10fad73eca.mediatailor.ap-southeast-1.amazonaws.co
 #KODIPROP:inputstream.adaptive.license_key=6ff0e040d544ec3f02243865990f0c10:83728b47019abdbb37aa36ed5f2951bd
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; U; Android 12 Build/KTR982) AppleWebKit/537.36 (KHTML, like Gecko) like Chrome/39.4154042468 Safari/537.36
 #KODIPROP:inputstream.adaptive.license_type=clearkey
-https://live.cboxpro.top/r/815-badminton1.mpd
+https://live.cboxpro.top/r/815astrobadminton.mpd
 
 #-------------------------badminton2(https://github.com/imanawesome2010/MuZu/blob/main/index.html)----------------------------------------------------------------------------------------------------------------------------------
-#-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 #EXTINF:-1 group-logo="" group-title="Sports" tvg-id="Badminton" tvg-logo="https://get.perfecttv.net/logo/badminton.png" group-logo="",granstand
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; U; Android 12 Build/KTR982) AppleWebKit/537.36 (KHTML, like Gecko) like Chrome/39.4154042468 Safari/537.36
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=
 #KODIPROP:inputstream.adaptive.license_key={ "keys":[ { "kty":"oct", "k":"Fo8/rfxzC6PfyTL3xDDifQ", "kid":"W+Zqb4jv7j1uMPcqnFjjEA" } ], "type":"temporary" }
-https://live.cboxpro.top/r/810-grandstand.mpd
+https://live.cboxpro.top/r/810astrograndstand.mpd
 
 #EXTINF:-1 group-logo="" group-title="Sports" tvg-id="sportplus" tvg-logo="https://get.perfecttv.net/logo/sportplus.png" group-logo="",Sports Plus
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
@@ -486,6 +481,7 @@ https://dash2.antik.sk/stream/nvidia_eurosport2/playlist_cenc.mpd
 
 #--------------------------SPORTSTARS(https://github.com/risarica2020-oke/notet/blob/main/IndihomeTV.m3u)---------------------------------------------------------------------------------------------------------------------------------------------
 #-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 #EXTINF:-1 tvg-id="Sportstars.id" tvg-name="Sportstars 1" tvg-logo="https://mimipipi22.github.io/logo/sports/sportstars.jpg" group-title="Sports",SPORTSTARS
 #EXTVLCOPT:http-referrer=https://www.visionplus.id/
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
@@ -498,13 +494,8 @@ https://d2tjypxxy769fn.cloudfront.net/out/v1/89a6e4261cd7470f83e5869e90440cff/in
 #KODIPROP:inputstream.adaptive.license_key=911e72adf36946afbdbb4f80782a8394:08aec548a851ba64b7172ae7f05cb91c
 https://d3b0v7fggu5zwm.cloudfront.net/out/v1/d2c68a3dfb644808b416bd90dcc92d5f/index.mpd
 
-#----------------------------NBA(https://github.com/abusaeeidx/IPTV-Scraper-Zilla/blob/main/xumo_playlist.m3u)---------------------------------------------------------------------------------------------------------------------------------------
-#-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-#EXTINF:-1 tvg-id="NBA" tvg-name="NBA" tvg-logo="https://image.xumo.com/v1/channels/channel/99951383/168x168.png?type=color_onBlack"  group-title="Sports", NBA
-https://dbrb49pjoymg4.cloudfront.net/10001/99951383/hls/playlist.m3u8?ads.xumo_channelId=99951383&ads._fw_ifa_type=&ads._fw_did=7ce08524-f636-4d24-b8d9-ceb894486ebc&ads.amznappId=&ads.lat=&ads.lon=&ads.os=&ads.osv=&ads.asnw=&ads.caid=NBAFASTChannel&ads.csid=xumo_web_NBAFASTChannel_ssai&ads._fw_is_lat=0&ads._fw_us_privacy=&ads._fw_coppa=0&ads.genre=Sport,Sports,SA,SC,SE,SN&ads._fw_content_category=&ads._fw_content_language=en&ads._fw_content_genre=Sport,Sports,SA,SC,SE,SN&ads._fw_content_rating=&ads.xumo_contentId=4185&ads.xumo_contentName=NBAFASTChannel&ads.xumo_providerId=4185&ads.xumo_providerName=NBAFASTChannel&ads._fw_deviceMake=GitHubAction&ads._fw_device_model=PythonScript&ads.channelId=99951383&ads.xumo_platform=web&ads.site_id=&ads.appName=xumo&ads.appVersion=1.0.0&ads._fw_app_bundle=web.xumo.com&ads._fw_app_store_url=
-
-#------------------------other sports(https://github.com/shareext-reborn/Shareext-UpdateFilesSports.m3u)--------------------------------------------------------------------------------------------------------------------------------------------------
-#-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+#----------------------------下面这些分类(https://github.com/shareext-reborn/Shareext-UpdateFilesSports.m3u/blob/main/Shareext%40playlist)
+#----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 #EXTINF:-1 group-title="Sports" tvg-logo="https://i.ibb.co.com/BCHXWWH/Shareext-champion-league.jpg",Premiere Sports 1
 #KODIPROP:inputstream.adaptive.license_type=clearkey
@@ -516,6 +507,13 @@ https://otte.live.fly.ww.aiv-cdn.net/gru-nitro/live/clients/dash/enc/m6sqanvm2m/
 #KODIPROP:inputstream.adaptive.license_key=1a5df53609ebc9857898c490f4724918:77f62980d582ec541280796acf8b2d19
 https://otte.live.fly.ww.aiv-cdn.net/gru-nitro/live/clients/dash/enc/bcj3iscpd6/out/v1/fcd137b391214f7cb99dd4d7be90ca87/cenc.mpd
 
+#----------------------------NBA(https://github.com/abusaeeidx/IPTV-Scraper-Zilla/blob/main/xumo_playlist.m3u)---------------------------------------------------------------------------------------------------------------------------------------
+#-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+#EXTINF:-1 tvg-id="NBA" tvg-name="NBA" tvg-logo="https://image.xumo.com/v1/channels/channel/99951383/168x168.png?type=color_onBlack"  group-title="Sports", NBA
+https://dbrb49pjoymg4.cloudfront.net/10001/99951383/hls/playlist.m3u8?ads.xumo_channelId=99951383&ads._fw_ifa_type=&ads._fw_did=7ce08524-f636-4d24-b8d9-ceb894486ebc&ads.amznappId=&ads.lat=&ads.lon=&ads.os=&ads.osv=&ads.asnw=&ads.caid=NBAFASTChannel&ads.csid=xumo_web_NBAFASTChannel_ssai&ads._fw_is_lat=0&ads._fw_us_privacy=&ads._fw_coppa=0&ads.genre=Sport,Sports,SA,SC,SE,SN&ads._fw_content_category=&ads._fw_content_language=en&ads._fw_content_genre=Sport,Sports,SA,SC,SE,SN&ads._fw_content_rating=&ads.xumo_contentId=4185&ads.xumo_contentName=NBAFASTChannel&ads.xumo_providerId=4185&ads.xumo_providerName=NBAFASTChannel&ads._fw_deviceMake=GitHubAction&ads._fw_device_model=PythonScript&ads.channelId=99951383&ads.xumo_platform=web&ads.site_id=&ads.appName=xumo&ads.appVersion=1.0.0&ads._fw_app_bundle=web.xumo.com&ads._fw_app_store_url=
+
+#----------------------------下面这些分类(https://github.com/shareext-reborn/Shareext-UpdateFilesSports.m3u/blob/main/Shareext%40playlist)
+#-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 #EXTINF:-1 group-title="Sports" tvg-logo="https://i.ibb.co.com/BCHXWWH/Shareext-champion-league.jpg",NBA TV
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
@@ -573,79 +571,3 @@ https://dbrb49pjoymg4.cloudfront.net/10001/99951530/hls/master.m3u8?ads.xumo_cha
 https://dbrb49pjoymg4.cloudfront.net/10001/99951134/hls/playlist.m3u8?ads.xumo_channelId=99951134&ads._fw_ifa_type=&ads._fw_did=39918290-babe-46c7-bd8a-13b6682a07bf&ads.amznappId=&ads.lat=&ads.lon=&ads.os=&ads.osv=&ads.asnw=&ads.caid=UFC&ads.csid=xumo_web_UFC_ssai&ads._fw_is_lat=0&ads._fw_us_privacy=&ads._fw_coppa=0&ads.genre=Sport,Sports,SA,SC,SE,SN&ads._fw_content_category=&ads._fw_content_language=en&ads._fw_content_genre=Sport,Sports,SA,SC,SE,SN&ads._fw_content_rating=&ads.xumo_contentId=3345&ads.xumo_contentName=UFC&ads.xumo_providerId=3345&ads.xumo_providerName=UFC&ads._fw_deviceMake=GitHubAction&ads._fw_device_model=PythonScript&ads.channelId=99951134&ads.xumo_platform=web&ads.site_id=&ads.appName=xumo&ads.appVersion=1.0.0&ads._fw_app_bundle=web.xumo.com&ads._fw_app_store_url=
 #EXTINF:-1 tvg-id="World Poker Tour" tvg-name="World Poker Tour" tvg-logo="https://image.xumo.com/v1/channels/channel/99991317/168x168.png?type=color_onBlack"  group-title="Sports", World Poker Tour
 https://dtqutq7lmcchv.cloudfront.net/10001/99991317/hls/playlist.m3u8?ads.xumo_channelId=99991317&ads._fw_ifa_type=&ads._fw_did=9e73a25d-9aab-4e57-8133-6856cde1dc2a&ads.amznappId=&ads.lat=&ads.lon=&ads.os=&ads.osv=&ads.asnw=&ads.caid=WorldPokerTour&ads.csid=xumo_web_WorldPokerTour_ssai&ads._fw_is_lat=0&ads._fw_us_privacy=&ads._fw_coppa=0&ads.genre=Sport,Sports,SA,SC,SE,SN&ads._fw_content_category=&ads._fw_content_language=en&ads._fw_content_genre=Sport,Sports,SA,SC,SE,SN&ads._fw_content_rating=&ads.xumo_contentId=252&ads.xumo_contentName=WorldPokerTour&ads.xumo_providerId=252&ads.xumo_providerName=WorldPokerTour&ads._fw_deviceMake=GitHubAction&ads._fw_device_model=PythonScript&ads.channelId=99991317&ads.xumo_platform=web&ads.site_id=&ads.appName=xumo&ads.appVersion=1.0.0&ads._fw_app_bundle=web.xumo.com&ads._fw_app_store_url=
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
