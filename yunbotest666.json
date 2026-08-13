@@ -13,7 +13,7 @@
     {"key": "新闪雷","name": "新闪雷┃MP4","type": 3,"api": "./lib/drpy2.min.js","ext": "./js/新闪雷.js","header": {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36 Edg/136.0.0.0"}},
     {"key": "闪雷","name": "闪雷┃MP4","type": 3,"api": "./lib/drpy2.min.js","ext": "./js/678.js","header": {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36 Edg/136.0.0.0"}},
     {"key": "drpy_js_蛋蛋赞","name":"影视 | 蛋蛋赞[js]","type":3,"api":"./lib/drpy2.min.js","ext":"./js/蛋蛋赞.js"},
-    {"key":"VodMax(JS)","name":"VodMax","type":3,"api":"./lib/drpy2.min.js","ext":"./js/vodmax.js","searchable":0,"quickSearch":0,"filterable":1,"switchable":1}
+    {"key": "VodMax(JS)","name":"VodMax","type":3,"api":"./lib/drpy2.min.js","ext":"./js/vodmax.js","searchable":0,"quickSearch":0,"filterable":1,"switchable":1},
     {"key": "袋鼠影视(JS)","name": "袋鼠影视","type": 3,"api": "./js/袋鼠影视.js","searchable": 1,"quickSearch": 1,"filterable": 1,"switchable": 1},
     {"key": "独播影视","name": "独播｜影视","type": 3,"api": "csp_Duboku"},
     {"key": "厂长影视","name": "厂长｜影视","type": 3,"api": "csp_Czsapp","searchable": 1,"quickSearch": 1,"filterable": 1,"ext": "https://www.czzymovie.com"},
